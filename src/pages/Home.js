@@ -26,7 +26,9 @@ const Home = () => {
           <Button primary onClick={showModalHandler}>
             Teste
           </Button>
-          {showModal && <Modal onHide={hideModalHandler}>Oi Caralho</Modal>}
+          <Modal hide={!showModal} onHide={hideModalHandler}>
+            Oi Caralho
+          </Modal>
         </Container>
       </MyHome>
     </>

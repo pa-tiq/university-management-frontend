@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styled, { keyframes } from 'styled-components';
-import Container from '../UI/Container';
 import { colors } from '../../constants/colors';
 
 const DivBackdrop = styled.div`
+  //visibility: ${({ hide }) => (hide ? 'hidden' : 'visible')};
+  //display: ${({ hide }) => (hide ? 'none' : 'block')};
+  opacity: ${({ hide }) => (hide ? '100%' : '0')};
+  top: ${({ hide }) => (hide ? '0' : '-100%')};
   position: absolute;
   width: 100%;
   height: 100%;
@@ -16,18 +19,21 @@ const DivBackdrop = styled.div`
 const slide_down = keyframes`
   from {
       opacity: 0;
-      transform: translateY(-3rem);
   }
   to {
       opacity: 1;
-      transform: translateY(0);
   }
 `;
 
 const CenteredFixedDiv = styled.div`
+  //visibility: ${({ hide }) => (hide ? 'hidden' : 'visible')};
+  //display: ${({ hide }) => (hide ? 'none' : 'block')};
+  opacity: ${({ hide }) => (hide ? '100%' : '0')};
+  top: ${({ hide }) => (hide ? '0' : '-100%')};
   position: fixed;
   width: 100%;
   z-index: 30;
+  transition: all 0.2s ease-in-out;
 `;
 
 const DivOverlay = styled.div`
@@ -36,10 +42,9 @@ const DivOverlay = styled.div`
   margin-top: 20%;
   margin-left: auto;
   margin-right: auto;
-  background-color: ${colors.navbar_background};
-  color: ${colors.background};
+  background-color: ${colors.background};
+  color: ${colors.navbar_background};
   border-radius: 14px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 40;
   padding: 1rem;
   text-align: center;
@@ -52,11 +57,11 @@ const Modal = (props) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
-        <DivBackdrop onClick={props.onHide} />,
+        <DivBackdrop hide={!props.hide} onClick={props.onHide} />,
         document.getElementById('backdrop-root')
       )}
       {ReactDOM.createPortal(
-        <CenteredFixedDiv onClick={props.onHide}>
+        <CenteredFixedDiv hide={!props.hide} onClick={props.onHide}>
           <DivOverlay>{props.children}</DivOverlay>
         </CenteredFixedDiv>,
         document.getElementById('overlay-root')
