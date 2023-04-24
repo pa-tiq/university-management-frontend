@@ -1,37 +1,19 @@
-import styled from 'styled-components';
 import Container from '../components/UI/Container';
-import { useState } from 'react';
-import Button from '../components/UI/Button';
-import Modal from '../components/Modals/Modal';
+import Network from '../components/Graphs/Network';
+import { NETWORK_DATA } from '../constants/DUMMY_DATA';
+import styled from 'styled-components';
 
-const MyHome = styled.section`
+const NetworkContainer = styled.div`
   display: flex;
-  width: 100%;
+  width: 800px;
+  height: 400px;
 `;
 
 const Home = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const showModalHandler = () => {
-    setShowModal(true);
-  };
-
-  const hideModalHandler = () => {
-    setShowModal(false);
-  };
   return (
-    <>
-      <MyHome>
-        <Container>
-          <Button primary onClick={showModalHandler}>
-            Teste
-          </Button>
-          <Modal hide={!showModal} onHide={hideModalHandler}>
-            Oi Caralho
-          </Modal>
-        </Container>
-      </MyHome>
-    </>
+    <NetworkContainer>
+      <Network data={NETWORK_DATA} />
+    </NetworkContainer>
   );
 };
 

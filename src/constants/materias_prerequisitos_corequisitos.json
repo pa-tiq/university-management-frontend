@@ -1,0 +1,461 @@
+{
+    "metadata": [
+        {
+            "colName": "materia",
+            "colType": "String",
+            "colIndex": 0
+        },
+        {
+            "colName": "corequisito",
+            "colType": "String",
+            "colIndex": 1
+        },
+        {
+            "colName": "prerequisito",
+            "colType": "String",
+            "colIndex": 2
+        },
+        {
+            "colName": "periodo",
+            "colType": "Numeric",
+            "colIndex": 3
+        }
+    ],
+    "resultset": [
+        [
+            "ALGORITMOS E PROGRAMAÇÃO 1",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            1
+        ],
+        [
+            "CÁLCULO 1A",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            1
+        ],
+        [
+            "FUNDAMENTOS DE LÓGICA",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            1
+        ],
+        [
+            "INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            1
+        ],
+        [
+            "QUÍMICA GERAL B",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            1
+        ],
+        [
+            "QUÍMICA GERAL EXPERIMENTAL",
+            "QUÍMICA GERAL B",
+            "NAO POSSUI",
+            1
+        ],
+        [
+            "ÁLGEBRA LINEAR",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            2
+        ],
+        [
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 1",
+            2
+        ],
+        [
+            "CÁLCULO 2A",
+            "NAO POSSUI",
+            "CÁLCULO 1A",
+            2
+        ],
+        [
+            "FÍSICA 1",
+            "CÁLCULO 1A",
+            "NAO POSSUI",
+            2
+        ],
+        [
+            "LABORATÓRIO DE FÍSICA 1",
+            "FÍSICA 1",
+            "NAO POSSUI",
+            2
+        ],
+        [
+            "CÁLCULO 3A",
+            "NAO POSSUI",
+            "CÁLCULO 2A",
+            3
+        ],
+        [
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            "NAO POSSUI",
+            "ÁLGEBRA LINEAR",
+            3
+        ],
+        [
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            "NAO POSSUI",
+            "CÁLCULO 1A",
+            3
+        ],
+        [
+            "ESTRUTURAS DE DADOS 1",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            3
+        ],
+        [
+            "FÍSICA 3",
+            "NAO POSSUI",
+            "CÁLCULO 2A",
+            3
+        ],
+        [
+            "MATEMÁTICA DISCRETA",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            3
+        ],
+        [
+            "DESENHO TÉCNICO",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            4
+        ],
+        [
+            "ELETROMAGNETISMO",
+            "NAO POSSUI",
+            "CÁLCULO 3A",
+            4
+        ],
+        [
+            "ELETROMAGNETISMO",
+            "NAO POSSUI",
+            "FÍSICA 3",
+            4
+        ],
+        [
+            "ESTRUTURAS DE DADOS 2",
+            "NAO POSSUI",
+            "ESTRUTURAS DE DADOS 1",
+            4
+        ],
+        [
+            "FÍSICA 4",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            4
+        ],
+        [
+            "LABORATÓRIO DE FÍSICA 4",
+            "FÍSICA 4",
+            "NAO POSSUI",
+            4
+        ],
+        [
+            "MÉTODOS MATEMÁTICOS LINEARES",
+            "NAO POSSUI",
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            4
+        ],
+        [
+            "ANÁLISE DE SISTEMAS LINEARES",
+            "NAO POSSUI",
+            "MÉTODOS MATEMÁTICOS LINEARES",
+            5
+        ],
+        [
+            "BANCO DE DADOS 1",
+            "NAO POSSUI",
+            "ESTRUTURAS DE DADOS 2",
+            5
+        ],
+        [
+            "CIRCUITOS ELÉTRICOS 1",
+            "NAO POSSUI",
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            5
+        ],
+        [
+            "CIRCUITOS ELÉTRICOS 1",
+            "NAO POSSUI",
+            "FÍSICA 3",
+            5
+        ],
+        [
+            "LABORATÓRIO DE CIRCUITOS ELÉTRICOS 1",
+            "CIRCUITOS ELÉTRICOS 1",
+            "NAO POSSUI",
+            5
+        ],
+        [
+            "LABORATÓRIO DE MATERIAIS ELÉTRICOS",
+            "MATERIAIS ELÉTRICOS",
+            "NAO POSSUI",
+            5
+        ],
+        [
+            "MATERIAIS ELÉTRICOS",
+            "NAO POSSUI",
+            "FÍSICA 3",
+            5
+        ],
+        [
+            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            "NAO POSSUI",
+            "ELETROMAGNETISMO",
+            6
+        ],
+        [
+            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            "NAO POSSUI",
+            "CIRCUITOS ELÉTRICOS 1",
+            6
+        ],
+        [
+            "ELETRÔNICA 1",
+            "NAO POSSUI",
+            "CIRCUITOS ELÉTRICOS 1",
+            6
+        ],
+        [
+            "ELETRÔNICA 1",
+            "NAO POSSUI",
+            "MATERIAIS ELÉTRICOS",
+            6
+        ],
+        [
+            "LABORATÓRIO DE CONVERSÃO ELETROMECÂN DE ENERGIA 1",
+            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            "NAO POSSUI",
+            6
+        ],
+        [
+            "LABORATÓRIO DE ELETRÔNICA 1",
+            "ELETRÔNICA 1",
+            "NAO POSSUI",
+            6
+        ],
+        [
+            "PROBABILIDADE E ESTATÍSTICA",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            6
+        ],
+        [
+            "SISTEMAS DE CONTROLE",
+            "NAO POSSUI",
+            "ANÁLISE DE SISTEMAS LINEARES",
+            6
+        ],
+        [
+            "CÁLCULO NUMÉRICO",
+            "NAO POSSUI",
+            "ÁLGEBRA LINEAR",
+            7
+        ],
+        [
+            "CÁLCULO NUMÉRICO",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 1",
+            7
+        ],
+        [
+            "CÁLCULO NUMÉRICO",
+            "NAO POSSUI",
+            "CÁLCULO 1A",
+            7
+        ],
+        [
+            "CIRCUITOS LÓGICOS 1",
+            "NAO POSSUI",
+            "FUNDAMENTOS DE LÓGICA",
+            7
+        ],
+        [
+            "FENÔMENOS DE TRANSPORTE",
+            "NAO POSSUI",
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            7
+        ],
+        [
+            "LABORATÓRIO DE CIRCUITOS LÓGICOS",
+            "CIRCUITOS LÓGICOS 1",
+            "NAO POSSUI",
+            7
+        ],
+        [
+            "LABORATÓRIO DE SISTEMAS DE CONTROLE",
+            "NAO POSSUI",
+            "SISTEMAS DE CONTROLE",
+            7
+        ],
+        [
+            "MECÂNICA",
+            "NAO POSSUI",
+            "CÁLCULO 1A",
+            7
+        ],
+        [
+            "LAB DE MICROPROCESSADORES E MICROCONTROLADORES",
+            "MICROPROCESSADORES E MICROCONTROLADORES",
+            "NAO POSSUI",
+            8
+        ],
+        [
+            "METODOLOGIA CIENTÍFICA",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            8
+        ],
+        [
+            "MICROPROCESSADORES E MICROCONTROLADORES",
+            "NAO POSSUI",
+            "CIRCUITOS LÓGICOS 1",
+            8
+        ],
+        [
+            "MICROPROCESSADORES E MICROCONTROLADORES",
+            "NAO POSSUI",
+            "ELETRÔNICA 1",
+            8
+        ],
+        [
+            "RESISTÊNCIA DOS MATERIAIS I",
+            "NAO POSSUI",
+            "MECÂNICA",
+            8
+        ],
+        [
+            "SISTEMAS OPERACIONAIS",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            8
+        ],
+        [
+            "TEORIA DE TELECOMUNICAÇÕES",
+            "NAO POSSUI",
+            "ELETRÔNICA 1",
+            8
+        ],
+        [
+            "ARQUITETURA DE COMPUTADORES 1",
+            "NAO POSSUI",
+            "CIRCUITOS LÓGICOS 1",
+            9
+        ],
+        [
+            "CIÊNCIAS DO AMBIENTE",
+            "NAO POSSUI",
+            "NAO POSSUI",
+            9
+        ],
+        [
+            "DIREITO PARA ENGENHARIA",
+            "NAO POSSUI",
+            "1200 H",
+            9
+        ],
+        [
+            "LINGUAGENS FORMAIS",
+            "NAO POSSUI",
+            "1200 H",
+            9
+        ],
+        [
+            "REDES DE COMPUTADORES 1",
+            "NAO POSSUI",
+            "TEORIA DE TELECOMUNICAÇÕES",
+            9
+        ],
+        [
+            "SISTEMAS DISTRIBUÍDOS 1",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            9
+        ],
+        [
+            "ADMINISTRAÇÃO EMPRESARIAL",
+            "NAO POSSUI",
+            "1200 H",
+            10
+        ],
+        [
+            "COMPILADORES 1",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            10
+        ],
+        [
+            "COMPILADORES 1",
+            "NAO POSSUI",
+            "LINGUAGENS FORMAIS",
+            10
+        ],
+        [
+            "ECONOMIA",
+            "NAO POSSUI",
+            "1200 H",
+            10
+        ],
+        [
+            "ENGENHARIA DE SOFTWARE 1",
+            "NAO POSSUI",
+            "1200 H",
+            10
+        ],
+        [
+            "INTELIGÊNCIA COMPUTACIONAL",
+            "NAO POSSUI",
+            "ESTRUTURAS DE DADOS 2",
+            10
+        ],
+        [
+            "PESQUISA OPERACIONAL 1",
+            "NAO POSSUI",
+            "CÁLCULO NUMÉRICO",
+            10
+        ],
+        [
+            "COMPUTAÇÃO GRÁFICA",
+            "NAO POSSUI",
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            11
+        ],
+        [
+            "ENGENHARIA ECONÔMICA",
+            "NAO POSSUI",
+            "ECONOMIA",
+            11
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 1",
+            "NAO POSSUI",
+            "2400 H",
+            11
+        ],
+        [
+            "ESTÁGIO SUPERVISIONADO",
+            "NAO POSSUI",
+            "1200 H",
+            12
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 2",
+            "NAO POSSUI",
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 1",
+            12
+        ]
+    ],
+    "queryInfo": {
+        "totalRows": "72"
+    }
+}

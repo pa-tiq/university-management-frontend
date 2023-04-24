@@ -1,0 +1,467 @@
+{
+    "metadata": [
+        {
+            "colName": "componente curricular.componente curricular",
+            "colType": "String",
+            "colIndex": 0
+        },
+        {
+            "colName": "componente curricular codigo.componente curricular codigo",
+            "colType": "String",
+            "colIndex": 1
+        },
+        {
+            "colName": "Total",
+            "colType": "Numeric",
+            "colIndex": 2
+        },
+        {
+            "colName": "Reprovados",
+            "colType": "Numeric",
+            "colIndex": 3
+        }
+    ],
+    "resultset": [
+        [
+            "FUNDAMENTOS DE LÓGICA",
+            "EMC0085",
+            117,
+            48
+        ],
+        [
+            "CÁLCULO 2A",
+            "IME0080",
+            52,
+            38
+        ],
+        [
+            "ÁLGEBRA LINEAR",
+            "IME0009",
+            81,
+            33
+        ],
+        [
+            "FÍSICA 3",
+            "IFI0116",
+            42,
+            32
+        ],
+        [
+            "MECÂNICA",
+            "IFI0264",
+            45,
+            32
+        ],
+        [
+            "CÁLCULO 1A",
+            "IME0075",
+            92,
+            29
+        ],
+        [
+            "FÍSICA 1",
+            "IFI0112",
+            43,
+            28
+        ],
+        [
+            "CÁLCULO 3A",
+            "IME0083",
+            47,
+            27
+        ],
+        [
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            "IME0108",
+            46,
+            24
+        ],
+        [
+            "METODOLOGIA CIENTÍFICA",
+            "EMC0158",
+            84,
+            23
+        ],
+        [
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            "INF0009",
+            43,
+            21
+        ],
+        [
+            "MÉTODOS MATEMÁTICOS LINEARES",
+            "EMC0160",
+            31,
+            19
+        ],
+        [
+            "ARQUITETURA DE COMPUTADORES 1",
+            "EMC0010",
+            36,
+            18
+        ],
+        [
+            "CIRCUITOS LÓGICOS 1",
+            "EMC0025",
+            32,
+            18
+        ],
+        [
+            "BANCO DE DADOS 1",
+            "INF0026",
+            31,
+            16
+        ],
+        [
+            "ELETROMAGNETISMO",
+            "IFI0027",
+            22,
+            15
+        ],
+        [
+            "QUÍMICA GERAL B",
+            "INQ0158",
+            73,
+            15
+        ],
+        [
+            "COMPUTAÇÃO GRÁFICA",
+            "EMC0027",
+            35,
+            14
+        ],
+        [
+            "ESTRUTURAS DE DADOS I",
+            "INF0063",
+            42,
+            14
+        ],
+        [
+            "PROBABILIDADE E ESTATÍSTICA",
+            "IME0232",
+            53,
+            14
+        ],
+        [
+            "ALGORITMOS E PROGRAMAÇÃO 1",
+            "INF0007",
+            68,
+            13
+        ],
+        [
+            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            "EMC0040",
+            21,
+            11
+        ],
+        [
+            "LABORATÓRIO DE FÍSICA 1",
+            "IFI0158",
+            30,
+            11
+        ],
+        [
+            "MATEMÁTICA DISCRETA",
+            "IME0286",
+            41,
+            11
+        ],
+        [
+            "REDES DE COMPUTADORES 1",
+            "EMC0274",
+            21,
+            10
+        ],
+        [
+            "SISTEMAS DISTRIBUÍDOS 1",
+            "INF0198",
+            39,
+            10
+        ],
+        [
+            "CIRCUITOS ELÉTRICOS 1",
+            "EMC0021",
+            30,
+            9
+        ],
+        [
+            "QUÍMICA GERAL EXPERIMENTAL",
+            "INQ0161",
+            59,
+            8
+        ],
+        [
+            "FENÔMENOS DE TRANSPORTE",
+            "EEC0096",
+            19,
+            7
+        ],
+        [
+            "ANÁLISE DE SISTEMAS LINEARES",
+            "EMC0006",
+            15,
+            6
+        ],
+        [
+            "ESTRUTURAS DE DADOS II",
+            "INF0064",
+            17,
+            6
+        ],
+        [
+            "LABORATÓRIO DE CIRCUITOS LÓGICOS",
+            "EMC0122",
+            22,
+            6
+        ],
+        [
+            "SISTEMAS OPERACIONAIS",
+            "INF0202",
+            35,
+            6
+        ],
+        [
+            "ADMINISTRAÇÃO EMPRESARIAL",
+            "FAC0006",
+            41,
+            5
+        ],
+        [
+            "DESENHO TÉCNICO",
+            "FAV0139",
+            55,
+            5
+        ],
+        [
+            "LINGUAGENS FORMAIS",
+            "INF0126",
+            28,
+            5
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 2",
+            "EMC0183",
+            21,
+            5
+        ],
+        [
+            "COMPILADORES 1",
+            "INF0033",
+            27,
+            4
+        ],
+        [
+            "INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO",
+            "EMC0101",
+            98,
+            4
+        ],
+        [
+            "PESQUISA OPERACIONAL 1",
+            "EMC0170",
+            20,
+            4
+        ],
+        [
+            "CÁLCULO NUMÉRICO",
+            "IME0062",
+            27,
+            3
+        ],
+        [
+            "ECONOMIA",
+            "FAC0060",
+            24,
+            3
+        ],
+        [
+            "ELETRÔNICA 1",
+            "EMC0056",
+            11,
+            3
+        ],
+        [
+            "FÍSICA 4",
+            "IFI0118",
+            22,
+            3
+        ],
+        [
+            "SISTEMAS DE CONTROLE",
+            "EMC0214",
+            12,
+            3
+        ],
+        [
+            "TEORIA DE TELECOMUNICAÇÕES",
+            "EMC0226",
+            14,
+            3
+        ],
+        [
+            "ENGENHARIA DE SOFTWARE 1",
+            "INF0058",
+            17,
+            2
+        ],
+        [
+            "ENGENHARIA ECONÔMICA",
+            "EMC0072",
+            21,
+            2
+        ],
+        [
+            "ESTÁGIO SUPERVISIONADO",
+            "EMC0076",
+            18,
+            2
+        ],
+        [
+            "INTELIGÊNCIA COMPUTACIONAL",
+            "INF0092",
+            16,
+            2
+        ],
+        [
+            "LABORATÓRIO DE CIRCUITOS ELÉTRICOS 1",
+            "EMC0119",
+            18,
+            2
+        ],
+        [
+            "LABORATÓRIO DE ELETRÔNICA 1",
+            "EMC0126",
+            6,
+            2
+        ],
+        [
+            "MATERIAIS ELÉTRICOS",
+            "EMC0149",
+            19,
+            2
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 1",
+            "EMC0182",
+            12,
+            2
+        ],
+        [
+            "PROJETO ORIENTADO DE ENGENHARIA DE COMPUTAÇÃO",
+            "EMC0192",
+            8,
+            2
+        ],
+        [
+            "TÓPICOS EM ENGENHARIA DE SISTEMAS DE INFORMAÇÃO 1",
+            "EMC0246",
+            23,
+            2
+        ],
+        [
+            "CIÊNCIAS DO AMBIENTE",
+            "EEC0026",
+            41,
+            1
+        ],
+        [
+            "LABORATÓRIO DE CONVERSÃO ELETROMECÂN DE ENERGIA 1",
+            "EMC0123",
+            13,
+            1
+        ],
+        [
+            "LABORATÓRIO DE FÍSICA 4",
+            "IFI0162",
+            9,
+            1
+        ],
+        [
+            "LABORATÓRIO DE MATERIAIS ELÉTRICOS",
+            "EMC0136",
+            14,
+            1
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO 2",
+            "EMC0185",
+            1,
+            1
+        ],
+        [
+            "RESISTÊNCIA DOS MATERIAIS I",
+            "EEC0224",
+            24,
+            1
+        ],
+        [
+            "SISTEMAS EMBARCADOS",
+            "EMC0219",
+            13,
+            1
+        ],
+        [
+            "AUTOMAÇÃO INDUSTRIAL",
+            "EMC0017",
+            5,
+            0
+        ],
+        [
+            "CONTROLE DIGITAL",
+            "EMC0034",
+            11,
+            0
+        ],
+        [
+            "DIREITO PARA ENGENHARIA",
+            "FAD0062",
+            18,
+            0
+        ],
+        [
+            "LAB DE MICROPROCESSADORES E MICROCONTROLADORES",
+            "EMC0117",
+            13,
+            0
+        ],
+        [
+            "LABORATÓRIO DE SISTEMAS DE CONTROLE",
+            "EMC0139",
+            14,
+            0
+        ],
+        [
+            "MICROPROCESSADORES E MICROCONTROLADORES",
+            "EMC0163",
+            15,
+            0
+        ],
+        [
+            "PROCESSAMENTO DIGITAL DE IMAGENS",
+            "EMC0173",
+            22,
+            0
+        ],
+        [
+            "ROBÓTICA MÓVEL",
+            "EMC0204",
+            9,
+            0
+        ],
+        [
+            "TÓPICOS EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO 1",
+            "EMC0242",
+            9,
+            0
+        ],
+        [
+            "TÓPICOS EM ENGENHARIA DE TELECOMUNICAÇÕES 1",
+            "EMC0251",
+            5,
+            0
+        ]
+    ],
+    "queryInfo": {
+        "totalRows": "73"
+    }
+}

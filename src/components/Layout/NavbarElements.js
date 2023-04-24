@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { colors } from '../../constants/colors';
 import { Link as LinkRouter } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
@@ -30,7 +31,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkRouter)`
+export const NavLogo = styled(NavLink)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -74,7 +75,25 @@ export const NavItem = styled.li`
   height: 20px;
 `;
 
-export const NavLinks = styled(LinkScroll)`
+const border_appear = keyframes`
+  0% {
+    border-bottom: 0px solid ${colors.buttons};
+  }
+  100% {
+    border-bottom: 2px solid ${colors.buttons};
+  } 
+  `;
+
+const border_disappear = keyframes`
+  0% {
+    border-bottom: 2px solid ${colors.buttons};
+  }
+  100% {
+    border-bottom: 0px solid ${colors.buttons};
+  } 
+  `;
+
+export const NavLinks = styled(NavLink)`
   color: ${colors.background};
   display: flex;
   align-items: flex;
@@ -82,14 +101,24 @@ export const NavLinks = styled(LinkScroll)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  transition: 0.5s;
 
   &:hover {
     color: ${colors.buttons};
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
+  /* &:active {
+    border-bottom: 5px solid ${colors.buttons};
+  }
+
+  &:active:after {
+    border-bottom: 0px solid ${colors.buttons};
+  } */
+
   &:active {
-    border-bottom: 3px solid ${colors.buttons};
+    animation: ${border_appear} 100ms ease-in;
+    animation: ${border_disappear} 500ms ease-out;
   }
 `;
 
@@ -118,7 +147,7 @@ export const NavButtonLink = styled(LinkRouter)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: ${colors.background};
+    color: ${colors.navbar_background};
   }
 `;

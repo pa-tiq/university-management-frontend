@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import { colors } from '../../constants/colors';
 
 const spin = keyframes`
   0% {
@@ -10,8 +11,12 @@ const spin = keyframes`
 
 const SpinnerDiv = styled.button`
   display: inline-block;
+  margin-top: 20%;
   width: 80px;
   height: 80px;
+  border-color: transparent;
+  box-shadow: none;
+  background: transparent;
   &:after {
     content: ' ';
     display: block;
@@ -19,8 +24,8 @@ const SpinnerDiv = styled.button`
     height: 64px;
     margin: 8px;
     border-radius: 50%;
-    border: 6px solid purple;
-    border-color: purple transparent purple transparent;
+    border: 7px solid ${colors.buttons};
+    border-color: ${colors.buttons} transparent ${colors.buttons} transparent;
     animation: ${spin} 1.2s linear infinite;
   }
 `;

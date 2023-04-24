@@ -1,0 +1,5084 @@
+{
+    "metadata": [
+        {
+            "colName": "dalu_matricula",
+            "colType": "String",
+            "colIndex": 0
+        },
+        {
+            "colName": "dalu_nome",
+            "colType": "String",
+            "colIndex": 1
+        },
+        {
+            "colName": "dsdi_situacao",
+            "colType": "String",
+            "colIndex": 2
+        }
+    ],
+    "resultset": [
+        [
+            "201008612",
+            "HENRIQUE GOMES DE CARVALHO",
+            "GRADUADO"
+        ],
+        [
+            "201303871",
+            "DANIEL MARTINS LEAL",
+            "ATIVO"
+        ],
+        [
+            "201400917",
+            "KAMILA CRISTINA SILVA MARTINS",
+            "ATIVO"
+        ],
+        [
+            "201008361",
+            "ERIC LIMA SANTANA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508633",
+            "DIEGO MATEUS LOPES DE LIMA",
+            "ATIVO"
+        ],
+        [
+            "200801704",
+            "HERICK MARQUES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802712",
+            "ANDRÉ MASSAO ZANOLA",
+            "ATIVO"
+        ],
+        [
+            "201905511",
+            "THIAGO DE SOUSA FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201609801",
+            "ROBERTO MARINHO FERNANDES",
+            "ATIVO"
+        ],
+        [
+            "201802699",
+            "PÂMELLA LORRANY RODRIGUES SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902484",
+            "GLEUDSON DE OLIVEIRA JUNIOR",
+            "GRADUADO"
+        ],
+        [
+            "201700274",
+            "MIGUEL FERNANDES SANTOS BARBOSA",
+            "ATIVO"
+        ],
+        [
+            "201102743",
+            "RHUAN KARLUS SILVA",
+            "ATIVO"
+        ],
+        [
+            "201503117",
+            "FILIPE QUEIROZ FONTE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602468",
+            "MÁRCIO ALVES RODRIGUES FILHO",
+            "ATIVO"
+        ],
+        [
+            "201609819",
+            "TAYNAN MINA MUNIZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802694",
+            "MARCOS VALÉRIO DE CARVALHO CARDOSO JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201905482",
+            "ARTUR NUNES BRANDAO",
+            "ATIVO"
+        ],
+        [
+            "201106002",
+            "RAFAEL RAMOS TAVARES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905492",
+            "ITALLO IURY SOUSA AZEVEDO",
+            "ATIVO"
+        ],
+        [
+            "201102714",
+            "CAMILA SANTOS DE AZEVEDO NOVAIS",
+            "GRADUADO"
+        ],
+        [
+            "201808784",
+            "VITOR FERNANDES OLIVEIRA GOMES",
+            "ATIVO"
+        ],
+        [
+            "201403472",
+            "VITOR LUCIO QUEZADA DE ANDRADE",
+            "ATIVO"
+        ],
+        [
+            "201901139",
+            "NATAN GUIDUCI GOMES MAGALHAES",
+            "ATIVO"
+        ],
+        [
+            "201204339",
+            "AUGUSTO CESAR FREITAS E SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307682",
+            "KELVIN LEONARDO REZIO SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201007955",
+            "LUANA CAIXETA DUARTE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602404",
+            "ARMANDO SOARES E SILVA NETO",
+            "ATIVO"
+        ],
+        [
+            "201308039",
+            "VINICIUS HENRIQUE MOREIRA RISSINI",
+            "ATIVO"
+        ],
+        [
+            "201406301",
+            "EDILBERTO CLAUDIO RAMOS JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201307418",
+            "VICTOR GRACIANO CARVALHO",
+            "ATIVO"
+        ],
+        [
+            "201716653",
+            "MATEUS FERNANDES LIMA",
+            "TRANCADO"
+        ],
+        [
+            "201602482",
+            "VICTOR MELO DE LUCAS BRANDÃO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703686",
+            "MARCOS PAULO ASSIS DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201204361",
+            "NICOLE SILVA TANNUS",
+            "GRADUADO"
+        ],
+        [
+            "201607090",
+            "GUSTAVO DE SOUZA FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201303888",
+            "MARCIO WINICIUS RIBEIRO AMARAL",
+            "TRANCADO"
+        ],
+        [
+            "200902469",
+            "TERUA LUIZ GONCALVES",
+            "GRADUADO"
+        ],
+        [
+            "201408293",
+            "LUCAS THADEU DA SILVA ABRANTES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201900252",
+            "CHAFIC ABRÃO NETO",
+            "ATIVO"
+        ],
+        [
+            "201703681",
+            "JOÃO VITOR MENEGON XAVIER",
+            "ATIVO"
+        ],
+        [
+            "201802696",
+            "MATHEUS HENRICK ALVES OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201102708",
+            "ALEXANDRE DA SILVA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201503129",
+            "LEONARDO BRYNDO PEREIRA MENDES MARQUES SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902451",
+            "GIOVANNI FILIPE LEONEL OLIVEIRA",
+            "GRADUADO"
+        ],
+        [
+            "201503125",
+            "JOAO PEDRO DE CASTRO ROSA",
+            "ATIVO"
+        ],
+        [
+            "201609816",
+            "JÚLIO CÉSAR DA SERRA CAMPOS FILHO",
+            "ATIVO"
+        ],
+        [
+            "201002609",
+            "GILBERTO ANTÔNIO MARCON DOS SANTOS",
+            "GRADUADO"
+        ],
+        [
+            "201802703",
+            "RODRIGO JESUS DA SILVA JUNIOR",
+            "TRANCADO"
+        ],
+        [
+            "201500353",
+            "CAROLINE MARQUES DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201408055",
+            "WERIKCYANO LIMA GUIMARAES",
+            "ATIVO"
+        ],
+        [
+            "200801693",
+            "ANDRÉ TELLES DE SOUSA CAMPOS VAZ",
+            "GRADUADO"
+        ],
+        [
+            "201515454",
+            "MATHEUS ALEXANDRE DO PRADO TEIXEIRA",
+            "GRADUADO"
+        ],
+        [
+            "201602473",
+            "MURILO BUENO JULIÃO LEMOS",
+            "ATIVO"
+        ],
+        [
+            "201602480",
+            "URIEL LUDOVICO CONRADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508630",
+            "CRISTHIANY JULIANO FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902481",
+            "FERNANDO HENRIQUE FERNANDES DE CAMARGO",
+            "GRADUADO"
+        ],
+        [
+            "201303879",
+            "GUILHERME FLORES FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201503174",
+            "MATHEUS MARINHO DE LIMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201200976",
+            "DANILLO LOBO FERRAZ",
+            "GRADUADO"
+        ],
+        [
+            "201100237",
+            "IAGO BRUNO OLIVEIRA MIRANDA ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201611880",
+            "PEDRO RAMOS KRAUZE DIEHL",
+            "ATIVO"
+        ],
+        [
+            "201802743",
+            "PHELIPE FERNANDES ARANTES DE ÁVILA",
+            "ATIVO"
+        ],
+        [
+            "200902493",
+            "JOAO VICTOR ALVES DUETI",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902502",
+            "LUCIANO NONATO SILVA SOUSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703708",
+            "DIEGO LIMA WILHELMS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209513",
+            "GUSTAVO TAVORA TEIXEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201008369",
+            "WELLINGTON CARVALHO DE SOUZA FILHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703726",
+            "RICARDO ATAIDE DE OLIVEIRA JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201703729",
+            "SÁVIO GUIMARÃES ANTUNES",
+            "ATIVO"
+        ],
+        [
+            "201700276",
+            "THARIC DE FREITAS ARAUJO",
+            "ATIVO"
+        ],
+        [
+            "200902434",
+            "ALEXANDRE CADORE TONDOLO",
+            "GRADUADO"
+        ],
+        [
+            "201802692",
+            "LUIZ CARLOS BATISTEL VIEIRA",
+            "ATIVO"
+        ],
+        [
+            "201400369",
+            "LARISSA RIBEIRO DE MELO PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201107623",
+            "LETÍCIA NUNES BORGES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201708992",
+            "JOEL FELIPPE BARBOSA DE OLIVEIRA VELLOSO",
+            "ATIVO"
+        ],
+        [
+            "201102732",
+            "LUIZ FERNANDO GOMES CARVALHO",
+            "TRANCADO"
+        ],
+        [
+            "201307938",
+            "MATHEUS MALAQUIAS ALVES DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801721",
+            "RAUL MARCOS FERREIRA DE OLIVEIRA JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204364",
+            "RAFAEL RODRIGUES FERREIRA",
+            "GRADUADO"
+        ],
+        [
+            "200801695",
+            "CLAYNON AUGUSTO DE SOUZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208931",
+            "VICTOR GONÇALVES BENTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801719",
+            "RAFAEL DOS SANTOS CORREIA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201401357",
+            "THIAGO HENRIQUE DE OLIVEIRA",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201209329",
+            "MURILLO COTA FERREIRA",
+            "GRADUADO"
+        ],
+        [
+            "201503170",
+            "LUIZ ALEXANDRE DE OLIVEIRA FREITAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802701",
+            "RICARDO LOPES MESQUITA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307404",
+            "MEIRE TORRES DAMARA",
+            "ATIVO"
+        ],
+        [
+            "201607099",
+            "FELIPE MARCELINO LIMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204368",
+            "WELTON ARISTIDES SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201900258",
+            "NAIARA GONÇALVES RIBEIRO",
+            "ATIVO"
+        ],
+        [
+            "201703706",
+            "CÁSSIO RENAN SOARES SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201108012",
+            "IGOR RUSCHI ANDRADE E LIMA",
+            "GRADUADO"
+        ],
+        [
+            "201308037",
+            "MARCOS VINICIUS FIGUEIRA VIEIRA GONZAGA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201800223",
+            "MARCEL ALVES PESSOA",
+            "ATIVO"
+        ],
+        [
+            "201406136",
+            "KEYSSIE CALDAS OLIVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002616",
+            "KAMYLLA LORRANNY SOUSA PRADO",
+            "GRADUADO"
+        ],
+        [
+            "201500355",
+            "ELI AUGUSTO GONÇALVES JÚNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801701",
+            "FREDERICO COSTA GALVÃO",
+            "GRADUADO"
+        ],
+        [
+            "201602422",
+            "JONATHAS ROCHA LIMIRIO SARDINHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802740",
+            "MATHEUS VIEIRA CAMELO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703722",
+            "PEDRO HENRIQUE BELEM SCHOLZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "200905492",
+            "FRANCISCO JOSÉ GARCIA RODRIGO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503114",
+            "DANIEL ALVES CORDEIRO",
+            "ATIVO"
+        ],
+        [
+            "201703684",
+            "LUCAS VITOR DE SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201308030",
+            "ANA PAULA RODRIGUES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609820",
+            "THIAGO CAMILO LEMOS COSTA",
+            "TRANCADO"
+        ],
+        [
+            "201002627",
+            "ROGÊ BATISTA GONÇALVES",
+            "GRADUADO"
+        ],
+        [
+            "200902450",
+            "GABRIELA ALENCASTRO",
+            "GRADUADO"
+        ],
+        [
+            "201107638",
+            "RONALDO GOMES SILVA",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201500118",
+            "NICOLAS RODRIGUES DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407714",
+            "GUSTAVO HENRIQUE FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201307386",
+            "ERICA CAROLINA CORREIA DA SILVA",
+            "TRANCADO"
+        ],
+        [
+            "201602416",
+            "GUILHERME JIM WEI LIN",
+            "EXCLUÍDO"
+        ],
+        [
+            "201105582",
+            "ANDRE LUIS DE AQUINO ZOMIOTI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508640",
+            "JEAN DANIEL DIAS",
+            "ATIVO"
+        ],
+        [
+            "201209620",
+            "HEVERSON BARBOSA ATAÍDE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508644",
+            "JULYELLY ROBERTA DE SOUSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204340",
+            "CAIKE RIZATTO TACCELLI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007963",
+            "MATHEUS MELGACO OLIVEIRA SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802728",
+            "ÍTALO ESTRELA PORTO",
+            "TRANCADO"
+        ],
+        [
+            "201406013",
+            "ARTUR MACHADO SANTANA MARRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802747",
+            "TAREK CAMPOS SALEH",
+            "ATIVO"
+        ],
+        [
+            "200902438",
+            "ANDRE RIBEIRO DE ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307930",
+            "ÍTALO DANIEL DA SILVA BARBOSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407734",
+            "RAFAEL WILTON RIBEIRO FONSECA",
+            "TRANCADO"
+        ],
+        [
+            "201611865",
+            "IGOR HENRIQUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703714",
+            "JEAN MARCELL HERMANO DAMAS",
+            "ATIVO"
+        ],
+        [
+            "201607105",
+            "VICTOR HUGO MARQUES",
+            "ATIVO"
+        ],
+        [
+            "201708984",
+            "FELIPE DE SOUSA ANDRADE",
+            "ATIVO"
+        ],
+        [
+            "201703694",
+            "PEDRO HENRIQUE RIBEIRO NOGUEIRA",
+            "ATIVO"
+        ],
+        [
+            "201306362",
+            "CAIO MARQUEZ CHAVES",
+            "ATIVO"
+        ],
+        [
+            "201108022",
+            "MATHEUS BARBOSA RACY",
+            "GRADUADO"
+        ],
+        [
+            "201703674",
+            "GIULIA BORGES DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201508643",
+            "JOHNATTA VARELA BARBOSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201304766",
+            "GUSTAVO FERREIRA SOUZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503109",
+            "ARIANE FERREIRA ARAUJO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503165",
+            "JUNIOR OCHSNER FERREIRA RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307397",
+            "LARA SANTANA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201300162",
+            "SALATYEL FELLIPE DA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "200801694",
+            "CAROLINNE ROSO HUBER",
+            "GRADUADO"
+        ],
+        [
+            "200801726",
+            "VANDRÉ HOLANDA SALES",
+            "GRADUADO"
+        ],
+        [
+            "201700256",
+            "JOAO PAULO MACEDO COSTA",
+            "ATIVO"
+        ],
+        [
+            "201700273",
+            "MATHEUS PAZ ESTEVES",
+            "ATIVO"
+        ],
+        [
+            "201602425",
+            "LUCA CÂNDIDO ALSINA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503162",
+            "IAN MOURA ALEXANDRE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508642",
+            "JOAO VICTOR DEZIDERIO VILELA",
+            "ATIVO"
+        ],
+        [
+            "201811506",
+            "JOÃO PAULO RODRIGUES DE CASTILHO",
+            "ATIVO"
+        ],
+        [
+            "201403470",
+            "VICTOR GOMIDE FERRAZ",
+            "ATIVO"
+        ],
+        [
+            "201301601",
+            "LUCAS PINHEIRO COSTA DE MELO REIS",
+            "GRADUADO"
+        ],
+        [
+            "201710989",
+            "PAULO EDUARDO FURTADO LOPES",
+            "ATIVO"
+        ],
+        [
+            "201208927",
+            "RUAN GAUTIERY DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007947",
+            "EDMAR SILVA DUTRA",
+            "GRADUADO"
+        ],
+        [
+            "201607093",
+            "MURILO CALAÇA GONÇALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801706",
+            "JONATHAN CARDOSO SILVA",
+            "GRADUADO"
+        ],
+        [
+            "200902446",
+            "DOUGLAS SOUZA SOARES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208896",
+            "ATILA AGUIAR PEREZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904753",
+            "GUILHERME SAMPAIO SAPIENCIA",
+            "ATIVO"
+        ],
+        [
+            "201007969",
+            "PAULO OCTAVIO TASSINARI CAIXETA",
+            "TRANCADO"
+        ],
+        [
+            "201208895",
+            "ARTUR FRAZÃO DA CUNHA LIMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905496",
+            "LARISSA MARTINS PIMENTA LARA",
+            "ATIVO"
+        ],
+        [
+            "201703723",
+            "RAFAEL ROSA DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902445",
+            "DANILO GOMES LEONARDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201406783",
+            "DYONNATAN FERREIRA MAIA",
+            "ATIVO"
+        ],
+        [
+            "201503173",
+            "MARCOS DE CARVALHO GUIMARÃES",
+            "ATIVO"
+        ],
+        [
+            "201708995",
+            "MARCO ANTÔNIO VELOSO TAVARES",
+            "ATIVO"
+        ],
+        [
+            "201208918",
+            "NAAB DOS ANJOS DE SOUSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905501",
+            "MARLO ALVES RODRIGUES",
+            "ATIVO"
+        ],
+        [
+            "200902465",
+            "MELISSA LORRANE FRAZAO LOPES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201611870",
+            "LUCA AUGUSTO CORRÊA",
+            "TRANCADO"
+        ],
+        [
+            "201307681",
+            "KAIO PEREIRA DOURADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602413",
+            "GABRIEL JABLONSKI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201405770",
+            "BRUNO JORDANI COSTA PAIXÃO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102742",
+            "RENATO FERREIRA BARBOSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102722",
+            "GABRIEL RODRIGUES XISTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201107619",
+            "JOÃO ELSO DOS REIS VIEIRA",
+            "ATIVO"
+        ],
+        [
+            "201102731",
+            "LUCAS GOMES PARREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201808781",
+            "THIAGO ACHCAR TREVISAN",
+            "ATIVO"
+        ],
+        [
+            "201602448",
+            "D'ARTAGNAN MEIRELES BARBOSA JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201800813",
+            "VINICIUS RIBEIRO PARREIRA",
+            "ATIVO"
+        ],
+        [
+            "201209606",
+            "EDGAR MORENO ALVES CARVALHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602456",
+            "GUILHERME PINTO FERNANDES",
+            "ATIVO"
+        ],
+        [
+            "201609817",
+            "KLAYTON SILVA VASCONCELOS JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201102726",
+            "IGOR MUNIZ SOARES",
+            "GRADUADO"
+        ],
+        [
+            "201800226",
+            "RICARDO MASAHIKO MASUDA",
+            "ATIVO"
+        ],
+        [
+            "201802673",
+            "CAIO CESAR DE JESUS ANCHIETA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201910849",
+            "GIOVANNI GOMES",
+            "ATIVO"
+        ],
+        [
+            "201602466",
+            "LUCIANO RUAN DE SOUZA DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002596",
+            "ALESSANDRO ALVES NOGUEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209688",
+            "BRUNO BRANDÃO SOARES MARTINS",
+            "GRADUADO"
+        ],
+        [
+            "201001686",
+            "MARIANA ALVES RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201808780",
+            "THARLYS DIAS RODRIGUES VELOSO",
+            "ATIVO"
+        ],
+        [
+            "201406308",
+            "YAN VICTOR BRITO DE PAIVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201700271",
+            "MARCELLO HENRIQUE BARBOSA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201102720",
+            "GABRIEL COUTINHO BRÊTAS NETTO",
+            "GRADUADO"
+        ],
+        [
+            "201401890",
+            "GABRIEL RIOS LEMES COSTA",
+            "ATIVO"
+        ],
+        [
+            "201107641",
+            "WILLIAN THIAGO LOPES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602410",
+            "DEBORA BRUNA RODRIGUES DE MORAIS",
+            "ATIVO"
+        ],
+        [
+            "201308071",
+            "ADEILSON NOGUEIRA DE MACEDO",
+            "ATIVO"
+        ],
+        [
+            "200801709",
+            "LETO MIRANDA GARCIA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201401891",
+            "RAFAEL BATISTA MENEGASSI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201405244",
+            "RAFAEL SOUZA OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802738",
+            "MATHEUS GUEDES SILVA MELO",
+            "ATIVO"
+        ],
+        [
+            "201403469",
+            "VAGNER LUCIANO DA COSTA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201708989",
+            "GILNARIO HONORIO DE BORBA JÚNIOR",
+            "TRANCADO"
+        ],
+        [
+            "201602460",
+            "JOSÉ JUNIO JACINTO DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201503118",
+            "FRANKLIN SILVA DE CASTRO BONFIM",
+            "TRANCADO"
+        ],
+        [
+            "201303873",
+            "DANILLO ALVES FORTUNA LIMA",
+            "ATIVO"
+        ],
+        [
+            "201308032",
+            "FILIPE DE SOUSA COSTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209331",
+            "PEDRO SANTOS DE REZENDE ALVES",
+            "GRADUADO"
+        ],
+        [
+            "201407706",
+            "EMERSON DOS SANTOS SILVA",
+            "TRANCADO"
+        ],
+        [
+            "201703718",
+            "MATHEUS RODRIGUES PEREIRA MENDES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300919",
+            "RAPHAEL REIS DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407701",
+            "BRUNA LARISSA CAMARA QUEIROZ",
+            "ATIVO"
+        ],
+        [
+            "201408045",
+            "JOÃO PAULO ALECRIM DE ABREU",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307387",
+            "GABRIEL OMAR FERNANDEZ SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201907767",
+            "ROBSON RIBEIRO AGUIAR",
+            "ATIVO"
+        ],
+        [
+            "201301344",
+            "VICTOR LUIZ DE OLIVEIRA E SILVA",
+            "ATIVO"
+        ],
+        [
+            "200902467",
+            "RICARDO GADOTTI BEDIN",
+            "EXCLUÍDO"
+        ],
+        [
+            "200805350",
+            "LUAN RIBEIRO NEVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905516",
+            "VINICIUS MEDEIROS MIRANDA",
+            "ATIVO"
+        ],
+        [
+            "200902472",
+            "VINICIUS PAULO LOPES DE OLIVEIRA",
+            "GRADUADO"
+        ],
+        [
+            "201609796",
+            "GUSTAVO DE LIMA BOVO",
+            "ATIVO"
+        ],
+        [
+            "201700267",
+            "GIULIO BENEDITO GROSSI MICHELANGELI BARRETO",
+            "ATIVO"
+        ],
+        [
+            "200902483",
+            "GABRIEL PEREIRA LIMA REIS",
+            "GRADUADO"
+        ],
+        [
+            "201108011",
+            "HENRIQUE ROCHA GRACIANO",
+            "GRADUADO"
+        ],
+        [
+            "201201810",
+            "ANDRE PAUL LEON GRANDSIRE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201108270",
+            "BRUNO VINICIUS KLABUNDER CONRADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904766",
+            "ALEXANDRE RODRIGUES FELGA",
+            "GRADUADO"
+        ],
+        [
+            "201703736",
+            "WANDERSON ALVES VIEIRA",
+            "ATIVO"
+        ],
+        [
+            "201901122",
+            "ALESSANDRO MOURA REIS DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "200902490",
+            "HUGO MEDEIROS ALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902455",
+            "JOAO PAULO NASCIMENTO OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307405",
+            "MURILO ELIAS OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201303869",
+            "CARLOS HENRIQUE DOS ANJOS MENEZES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602461",
+            "JOSÈ WILLIAN DOS SANTOS JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201400920",
+            "MATHEUS RODRIGUES VALADAO",
+            "ATIVO"
+        ],
+        [
+            "201503119",
+            "GABRIEL LUIS DE ARAUJO E FREITAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201108449",
+            "FLÁVIO AYRES MARINHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902452",
+            "GUILHERME YOSHIDA RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902439",
+            "APOLO SILVA MARTON",
+            "GRADUADO"
+        ],
+        [
+            "201703696",
+            "THIAGO DE MELLO BORGES JUNQUEIRA",
+            "ATIVO"
+        ],
+        [
+            "201002611",
+            "GUILHERME VINICIUS COSTA FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201403471",
+            "VINÍCIUS THOMÉ SANTIAGO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515433",
+            "CLAUDIO DA SILVA PINHEIRO JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905500",
+            "LUIS GUILHERME BARBOSA CUSTODIO",
+            "ATIVO"
+        ],
+        [
+            "201703691",
+            "NIKHERSON BRENNO SOUZA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201008359",
+            "DIOGO BELARMINO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201710946",
+            "GABRIEL VICTOR MIOTTI DE SOUZA AGUIAR",
+            "ATIVO"
+        ],
+        [
+            "201703689",
+            "MATHEUS SILVA DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201108023",
+            "RAFAEL RATACHESKI DE SOUSA RAULINO",
+            "ATIVO"
+        ],
+        [
+            "201003343",
+            "JÉSSICA MAIARA BERNARDES DIAS",
+            "GRADUADO"
+        ],
+        [
+            "201405243",
+            "RACHIMÍ SOLAREVISKY DE JESUS",
+            "ATIVO"
+        ],
+        [
+            "201802671",
+            "ADRIANO FERREIRA LOPES",
+            "ATIVO"
+        ],
+        [
+            "201808754",
+            "BEATRIZ MARTINS COSTA",
+            "ATIVO"
+        ],
+        [
+            "201618304",
+            "HEVERSON BARBOSA ATAÍDE",
+            "ATIVO"
+        ],
+        [
+            "201108279",
+            "VITOR POVOA SIQUEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201303889",
+            "MARCOS VINICIUS DE SOUZA OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002626",
+            "PHELIPE FERNANDES ARANTES DE ÁVILA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602415",
+            "GILSON REIS DA SILVA FILHO",
+            "ATIVO"
+        ],
+        [
+            "201106003",
+            "RODRIGO DAMASCENO KAJI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201302587",
+            "PAULO RAFAEL COSTA MARTINS",
+            "ATIVO"
+        ],
+        [
+            "201602454",
+            "FELIPE GABRIEL DOS SANTOS MADEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902463",
+            "MARCO AURÉLIO DALL'' AGNESE",
+            "GRADUADO"
+        ],
+        [
+            "201204351",
+            "IGOR VASCONCELOS RIBEIRO",
+            "ATIVO"
+        ],
+        [
+            "201515416",
+            "GUILHERME SANTIAGO OLIVEIRA DE BRITO",
+            "ATIVO"
+        ],
+        [
+            "201802675",
+            "DHIULY SOARES DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201802742",
+            "PAULO ROBERTO DOMINGUES DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201905483",
+            "BRUNA OLIVEIRA DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201204337",
+            "ALEXANDRE LEMES DE FREITAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905490",
+            "GABRIEL MATOS MENDES",
+            "ATIVO"
+        ],
+        [
+            "201401753",
+            "HIGOR FERREIRA PIMENTEL",
+            "ATIVO"
+        ],
+        [
+            "201204366",
+            "RANGEL SILVA ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503154",
+            "ELIABE SOUZA REIS",
+            "ATIVO"
+        ],
+        [
+            "200902473",
+            "VINICIUS SANTOS CARRIJO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201303881",
+            "GUILHERME RODRIGUES MEDEIROS E FURQUIM",
+            "ATIVO"
+        ],
+        [
+            "201403455",
+            "DIEGO GODOY SILVA",
+            "ATIVO"
+        ],
+        [
+            "201716657",
+            "SAULO INACIO VEIGA FILHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204359",
+            "MARCUS MIGUEL MIRANDA MATOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802734",
+            "LUCAS DUARTE SOBREIRA",
+            "ATIVO"
+        ],
+        [
+            "201107608",
+            "DANIEL FALEIRO SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201303895",
+            "TÚLIO CÉSAR DE BRITO NUNES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201008614",
+            "WILLIAM LIMA FREITAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300159",
+            "MAVRO BARBOSA RODRIGUES JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201005720",
+            "VICTOR MATEUS FERREIRA ROCHA",
+            "ATIVO"
+        ],
+        [
+            "201209589",
+            "GUSTAVO ARAÚJO PEQUENO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801727",
+            "WELINGTON GONÇALVES DE URZÊDO",
+            "GRADUADO"
+        ],
+        [
+            "201002625",
+            "PEDRO ROGERIO DE SOUSA FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407725",
+            "JOSÉ LÁZARO CAD NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802748",
+            "VINICIUS ANDRADE DE LIMA E SILVA",
+            "ATIVO"
+        ],
+        [
+            "201602471",
+            "MATHEUS DELFINO MARINHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905493",
+            "JOAO PEDRO MELO TEIXEIRA",
+            "ATIVO"
+        ],
+        [
+            "201102728",
+            "JOÃO PAULO MOREIRA SANTANA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703727",
+            "RICARDO DE MORAIS RAINHA",
+            "ATIVO"
+        ],
+        [
+            "201910869",
+            "VINÍCIUS PINHEIRO PRADOS",
+            "ATIVO"
+        ],
+        [
+            "200804228",
+            "JOAO HENRIQUE RIBEIRO DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201800222",
+            "LUAN WEBA SOARES",
+            "ATIVO"
+        ],
+        [
+            "201700252",
+            "ARTHUR DOS SANTOS MOHN",
+            "ATIVO"
+        ],
+        [
+            "200902441",
+            "ÁTILA GRACCO DA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201703667",
+            "ARTHUR SCHERER DA SILVA ROCHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201808759",
+            "FÁBIO ANTÔNIO RIBEIRO SILVA SIQUEIRA",
+            "ATIVO"
+        ],
+        [
+            "201703719",
+            "MAUI DIAS GAMA",
+            "ATIVO"
+        ],
+        [
+            "201209335",
+            "WELLYNGTON FELIPE ALVES RIBEIRO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602428",
+            "LUIZ YOKOYAMA FELIX DE SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201703693",
+            "PAULO DE TARSO BATISTA CARDOSO",
+            "ATIVO"
+        ],
+        [
+            "201703703",
+            "ANA PAULA MOURA SARAN",
+            "ATIVO"
+        ],
+        [
+            "201407717",
+            "ISABELA FONTES DE ARAUJO",
+            "ATIVO"
+        ],
+        [
+            "201400373",
+            "MARIA EUGENIA PEREIRA TEIXEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902477",
+            "CESAR ALEXANDRE ARAO GOMES SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515432",
+            "ARTHUR MARQUES VILELA DE ANDRADE",
+            "ATIVO"
+        ],
+        [
+            "201007946",
+            "DIEGO MARTINS CARDOSO",
+            "GRADUADO"
+        ],
+        [
+            "201807140",
+            "NANDER MILLAR ZAMORANO BEKEMBAL DE ARAUJO SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201204362",
+            "PEDRO HENRIQUE PEREIRA ROCHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602462",
+            "LEONARDO RODRIGUES MARQUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905502",
+            "MATHEUS BAILAO DE BARROS",
+            "ATIVO"
+        ],
+        [
+            "201700261",
+            "BRENER PEREIRA DE ARAÚJO",
+            "ATIVO"
+        ],
+        [
+            "201108271",
+            "DANILO ALVARENGA LÁZARO DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201808738",
+            "MATHEUS ISAC DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201002597",
+            "ANDERSON RUSCHI ANDRADE E LIMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201616623",
+            "GABRIEL NERCIAL BORGES DE MENEZES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904826",
+            "DANILO RODRIGUES DE CARVALHO",
+            "GRADUADO"
+        ],
+        [
+            "201802684",
+            "IAN MARCOS DA CRUZ CHAVES",
+            "ATIVO"
+        ],
+        [
+            "201401288",
+            "KAIO CESAR OLIVEIRA ABREU",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508656",
+            "PEDRO HENRIQUE LOPES DE CARVALHO",
+            "ATIVO"
+        ],
+        [
+            "201503176",
+            "MICAEL SANTOS OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201712899",
+            "DAYANE DE OLIVEIRA LOPES",
+            "ATIVO"
+        ],
+        [
+            "201103986",
+            "BRAYNER VELOSO SOBRINHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802706",
+            "TEREZINHA DE SOUSA VAZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "201105986",
+            "FABIO MORONI MIGUEL SILVA",
+            "ATIVO"
+        ],
+        [
+            "201700272",
+            "MATHEUS ANDRADE DUTRA",
+            "ATIVO"
+        ],
+        [
+            "201703731",
+            "THIAGO ANTÔNIO SILVA MARTINS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201700260",
+            "ANDRÉ FREITAS AMARAL",
+            "ATIVO"
+        ],
+        [
+            "201609791",
+            "ALVARO RENAN DE MELO RODRIGUES",
+            "TRANCADO"
+        ],
+        [
+            "201515438",
+            "EDUARDO MARTINS DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407703",
+            "CLEOMAR RODRIGUES DE ARAUJO JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201511942",
+            "PEDRO FELIX MATTOS",
+            "ATIVO"
+        ],
+        [
+            "201107637",
+            "RAPHAEL ELIAS TOLEDO FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609815",
+            "JOSÉ EDUARDO PEREIRA E ASSIS",
+            "ATIVO"
+        ],
+        [
+            "201703709",
+            "FELIPE RIBEIRO FELIPE DO NASCIMENTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802702",
+            "RODRIGO ASHLEY FERREIRA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201307409",
+            "PEDRO ARTUR FERREIRA DOS SANTOS COSTA",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201407699",
+            "ANDERSON ALBERTO DA COSTA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201005107",
+            "ERICK REIS BARROS",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902480",
+            "EULER GUIMARAES LOBO",
+            "ATIVO"
+        ],
+        [
+            "200902448",
+            "FÁBIO JÚNIOR CHAVEIRO DE SOUZA",
+            "GRADUADO"
+        ],
+        [
+            "201800215",
+            "RAFAEL NUNES SANTANA",
+            "ATIVO"
+        ],
+        [
+            "201511940",
+            "LUIZ CARLOS DA SILVA FILHO",
+            "ATIVO"
+        ],
+        [
+            "201102711",
+            "BRENO CABRAL DE ARAUJO GALVÃO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407715",
+            "HENRIQUE MAGALHÃES CHAVES",
+            "ATIVO"
+        ],
+        [
+            "201102719",
+            "EDUARDO AKIRA KAWASSAKI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508632",
+            "DELBERSON TIAGO DE SOUZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201108009",
+            "BRUNA MICHELLY DE OLIVEIRA SILVA CORDEIRO",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201802715",
+            "AUGUSTO STIVAL DE PAULA BIZINOTO FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201408044",
+            "GUSTAVO GUIMARÃES DE CASTRO BRAZ",
+            "ATIVO"
+        ],
+        [
+            "200801724",
+            "SAMUEL DE CASTRO BERNARDES",
+            "GRADUADO"
+        ],
+        [
+            "201107626",
+            "MARCO ANDRE NAVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902478",
+            "CLAYTON DEODORO GONCALVES DE ALCANTARA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904750",
+            "CIRO GONÇALVES LARIUCCI",
+            "GRADUADO"
+        ],
+        [
+            "201503163",
+            "JOÃO CARLOS SILVA FONSECA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609808",
+            "CRISTIANO JOSE GONCALVES SILVA",
+            "ATIVO"
+        ],
+        [
+            "201002628",
+            "RUAN MICHEL MARTINS DOMINGOS",
+            "GRADUADO"
+        ],
+        [
+            "201303872",
+            "DANIEL MATIAS DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307928",
+            "GABRIEL RODRIGUES DA SILVA PIRES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200905501",
+            "ALEX WANDERLEY ALMEIDA CARVALHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802690",
+            "LIN SHIAU LON ROCHA",
+            "ATIVO"
+        ],
+        [
+            "201200977",
+            "LEONARDO MORAES NAVES MENDES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201308028",
+            "ADRIANA ARAUJO TEIXEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902506",
+            "RAYAN DUARTE COSTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201808749",
+            "SHIRLEY MACIEL TRINDADE",
+            "ATIVO"
+        ],
+        [
+            "201808756",
+            "CAIO ISMAEL ALVES MARTINS",
+            "ATIVO"
+        ],
+        [
+            "200902442",
+            "BERNARDO ARAÚJO RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508629",
+            "CELSO GOMES GUIDO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201208102",
+            "NIGEL JOSEPH BANDEIRA DIAS",
+            "GRADUADO"
+        ],
+        [
+            "201708999",
+            "THIAGO DUTRA DE MIRANDA E SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609800",
+            "RAPHAEL MARQUES RODRIGUES",
+            "ATIVO"
+        ],
+        [
+            "201208913",
+            "MARCIO NERES DE SOUZA JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902500",
+            "LUCAS DOS REIS ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208904",
+            "GIOVANNE RAMOS DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201609818",
+            "RAFAEL MARCON DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201401791",
+            "DIEGO FONSECA GUSE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209322",
+            "FABIO LISITA MOREIRA FILHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407713",
+            "GUILHERME HENRIQUE DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201611831",
+            "BEATRIZ HANAE FUJIMOTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300917",
+            "ALLAN GUSTAVO GOMES PAES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102716",
+            "CASSIA CARVALHO CALAÇO",
+            "GRADUADO"
+        ],
+        [
+            "201401722",
+            "HUGO LEONARDO RAMOS DE ALENCAR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201811303",
+            "NATÁLIA SOUZA DE JESUS",
+            "ATIVO"
+        ],
+        [
+            "201108571",
+            "FELIPE GABRIEL ITACARAMBI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201614856",
+            "ARTHUR PENIDO MORAES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201207795",
+            "RAISSA KARENINE FERNANDES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503186",
+            "YURI VIEIRA MACHADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503182",
+            "THAMIRES GOMES ANTUNES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905507",
+            "RAFAEL NUNES MOREIRA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201910846",
+            "FABIO LIMA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201300920",
+            "ROBSON BOTELHO DE ARAUJO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703734",
+            "VICTOR LEVI LOPES CARVALHO",
+            "ATIVO"
+        ],
+        [
+            "201703725",
+            "RENAN OLIVEIRA FIRMINO",
+            "ATIVO"
+        ],
+        [
+            "201303870",
+            "CAROLINE DE SOUZA BARROS",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902503",
+            "MARCOS VINICIUS NERY HURTADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201107620",
+            "JOÃO VÍTOR BARNEZ PIGNATA LEAL DINIZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "201004418",
+            "ARTHUR VIEIRA URQUIZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007939",
+            "ALEXANDER DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201308072",
+            "PEDRO HENRIQUE DA SILVA SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307395",
+            "JOHNATHAN KESLLEY MARQUES DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201400368",
+            "GABRIEL VICTOR RESENDE",
+            "ATIVO"
+        ],
+        [
+            "201005231",
+            "ABISHAI LEMES BORGES NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503156",
+            "FELIPE CARVALHO LIMA",
+            "ATIVO"
+        ],
+        [
+            "201208917",
+            "MURILO DE PAIVA SIQUEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801696",
+            "DANIELA GUIMARAES DE SIQUEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300915",
+            "THIAGO FERREIRA NASCIMENTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515423",
+            "PAULO RICARDO SALES VIDAL",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602441",
+            "TOMÁS DOS SANTOS RODRIGUES E SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609799",
+            "LUCAS WALLACE NASCIMENTO LIMA",
+            "ATIVO"
+        ],
+        [
+            "200800751",
+            "DEBORAH TAVARES DE AZEVEDO JAPIASSU",
+            "ATIVO"
+        ],
+        [
+            "201306671",
+            "GUSTAVO HENRIQUE DE SOUZA RORIZ",
+            "ATIVO"
+        ],
+        [
+            "200901489",
+            "RODRIGO SANTOS MULSER",
+            "ATIVO"
+        ],
+        [
+            "201905503",
+            "MELYSSA MARIANA GOMES SILVA",
+            "ATIVO"
+        ],
+        [
+            "201204355",
+            "JOSÉ CARLOS DOS SANTOS MARCONDES DE TOLEDO NETO",
+            "GRADUADO"
+        ],
+        [
+            "201703724",
+            "RAI OLIVEIRA DE MELO",
+            "ATIVO"
+        ],
+        [
+            "201503107",
+            "ANA PRISCILA AUGUSTO ABREU",
+            "ATIVO"
+        ],
+        [
+            "201503149",
+            "BRUNO HENRIQUE CONTERATO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905487",
+            "ELIAS RIBEIRO DE CARVALHO SILVA",
+            "ATIVO"
+        ],
+        [
+            "201508657",
+            "RODRIGO FARINACCIO LOTRARIO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201200975",
+            "ADILIO VITOR DE OLIVEIRA JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201703716",
+            "MARIO BOITO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201802681",
+            "GLAUBER BORGES LINDOLFO",
+            "ATIVO"
+        ],
+        [
+            "201503131",
+            "LUCAS EMILIO MENDES FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201710972",
+            "DOUGLAS GOMES DE MELO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802687",
+            "JEAN LUCAS BARBOSA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201602450",
+            "DANIEL PINHEIRO TAVARES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602457",
+            "ISAAC YVES LOPES DE MACÊDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703671",
+            "FELIPE SILVEIRA SCHLOEGL",
+            "ATIVO"
+        ],
+        [
+            "201105586",
+            "IAGO VICTOR PIRES DE SOUZA NUNES",
+            "GRADUADO"
+        ],
+        [
+            "201802704",
+            "RODRIGO MENDES CAMARA DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201602469",
+            "MARCUS VINICIUS MARQUES",
+            "ATIVO"
+        ],
+        [
+            "201703682",
+            "JÚLIA NOGUEIRA DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002623",
+            "OLIVEIROS DE OLIVEIRA E SILVA NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801717",
+            "PLÍNIO MARCOS VIEIRA DA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201204350",
+            "IGOR FERREIRA DA SILVA NUNES",
+            "GRADUADO"
+        ],
+        [
+            "201616650",
+            "MARIANA CASETTA DE AZEVEDO",
+            "ATIVO"
+        ],
+        [
+            "201901136",
+            "LEONÍDIO ALVES DE MORAES JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "200904848",
+            "MARCELO DE OLIVEIRA NEVES",
+            "GRADUADO"
+        ],
+        [
+            "201609802",
+            "VITOR RAFAEL GONÇALVES RODRIGUES",
+            "ATIVO"
+        ],
+        [
+            "201611860",
+            "GABRIEL MARTINS CHAGAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204356",
+            "JOSE DIOGO GUARDARINE THEMUDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201406782",
+            "DALTON DE ALMIRAR COLODETO NETO",
+            "ATIVO"
+        ],
+        [
+            "201407728",
+            "MARCIO LIN ARAUJO MATSUNAGA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307929",
+            "GUSTAVO GOES NOGUEIRA",
+            "ATIVO"
+        ],
+        [
+            "201602419",
+            "JARBAS GUIMARÃES MENEZES DE FREITAS",
+            "ATIVO"
+        ],
+        [
+            "200902482",
+            "FREDERICO TELES COSTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602481",
+            "VICTOR HUGO BUNTROK MORENO",
+            "ATIVO"
+        ],
+        [
+            "201515419",
+            "JOAO VICTOR SANTOS ALVES E SILVA",
+            "ATIVO"
+        ],
+        [
+            "201802735",
+            "LUCAS SOUSA REIS",
+            "ATIVO"
+        ],
+        [
+            "201508647",
+            "LUIGGI GIOVANUCCI FALEIRO DE FREITAS NASCIMENTO",
+            "ATIVO"
+        ],
+        [
+            "201108450",
+            "RAQUEL CARNEIRO LUCIO",
+            "ATIVO"
+        ],
+        [
+            "201703728",
+            "ROBSON PEREIRA DE BRITO",
+            "ATIVO"
+        ],
+        [
+            "201802709",
+            "VICTOR GUIMARAES ALVES",
+            "ATIVO"
+        ],
+        [
+            "201102723",
+            "HARLEI JOSÉ VICENTE FILHO",
+            "GRADUADO"
+        ],
+        [
+            "201703679",
+            "JOAO RIBEIRO DE OLIVEIRA GOMES",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902436",
+            "ANDERSON OLIVEIRA SOUSA",
+            "GRADUADO"
+        ],
+        [
+            "201209630",
+            "BRUNO COSTA PEREIRA VALADÃO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102709",
+            "ALLAN MAGALHÃES NEVES",
+            "GRADUADO"
+        ],
+        [
+            "201609810",
+            "EDUARDO PEIXOTO VIEIRA",
+            "ATIVO"
+        ],
+        [
+            "201515431",
+            "ANA PAULA RODRIGUES DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "200801725",
+            "VALÉRIO PEREIRA FANTÂNIO",
+            "GRADUADO"
+        ],
+        [
+            "201406133",
+            "FABRÍCIO LOPES MENDONÇA",
+            "ATIVO"
+        ],
+        [
+            "201108276",
+            "LEONAM DARIS RIBEIRO",
+            "ATIVO"
+        ],
+        [
+            "201802677",
+            "FELIPE MIRANDA CARDOSO DE SA",
+            "ATIVO"
+        ],
+        [
+            "200905202",
+            "YI LUN LU",
+            "GRADUADO"
+        ],
+        [
+            "201703680",
+            "JOAO VICTOR OTTO NASCIMENTO",
+            "ATIVO"
+        ],
+        [
+            "201703675",
+            "GIULIA FERREIRA GOMES",
+            "ATIVO"
+        ],
+        [
+            "201209645",
+            "MARCOS NOGUEIRA LOBO DE CARVALHO",
+            "GRADUADO"
+        ],
+        [
+            "201306424",
+            "PEDRO AUGUSTO GOMES MINARE",
+            "ATIVO"
+        ],
+        [
+            "200902496",
+            "LARISSA GARCIA BORGES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204348",
+            "GABRIEL MARANHÃO SOARES",
+            "GRADUADO"
+        ],
+        [
+            "201602443",
+            "YURI GUERREIRO MOREIRA SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201108451",
+            "VICTORIA FIGUEIREDO MOTTA PIMENTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503150",
+            "CARLOS EDUARDO FURTADO MARQUEZ DA CUNHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201800216",
+            "VERÔNICA BERTOLUCCI SCISLEWSKI",
+            "ATIVO"
+        ],
+        [
+            "201303880",
+            "GUILHERME HENRIQUE LOPES GONCALVES",
+            "ATIVO"
+        ],
+        [
+            "201905494",
+            "JOAO VITOR DE SOUSA",
+            "ATIVO"
+        ],
+        [
+            "201102734",
+            "MURILO GONÇALVES PEREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007952",
+            "ITALO LANDA SOBRAL",
+            "GRADUADO"
+        ],
+        [
+            "201408198",
+            "LUIS FELIPE LINO ZAIDEN ASSIS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201106004",
+            "TALITA CRUZ ALVES GARCIA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902511",
+            "TÁSSIO MARQUES RIOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307389",
+            "GILMAR SOARES DA SILVA JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609807",
+            "ANDRÉ LUÍS MARTINS PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "200904834",
+            "FABIO RODRIGUES ALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201611873",
+            "LUCAS SANTOS DE AGUIAR",
+            "ATIVO"
+        ],
+        [
+            "201609794",
+            "DAYRONE BORGES TOMAZETTI",
+            "ATIVO"
+        ],
+        [
+            "201607101",
+            "KENNEDY ALVES REZENDE",
+            "ATIVO"
+        ],
+        [
+            "201708998",
+            "SAMUEL CORDEIRO MOTA",
+            "ATIVO"
+        ],
+        [
+            "201407711",
+            "GEAN JUNIO FERREIRA DE ARAUJO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201710968",
+            "ANTÔNIO CARLOS DA SILVA JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "200902474",
+            "ADRIANA FERREIRA DE BRITO",
+            "GRADUADO"
+        ],
+        [
+            "201204344",
+            "EDUARDO OLIVEIRA E SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201800220",
+            "GUILHERME CAETANO DE OLIVEIRA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201808731",
+            "GLEYCYKELLY SYSSY INDYMAYER CARNOT AMARO",
+            "ATIVO"
+        ],
+        [
+            "201208926",
+            "RODRIGO SASSE DAVID",
+            "GRADUADO"
+        ],
+        [
+            "201703732",
+            "VICTOR GABRIEL CALDAS DELGADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201708990",
+            "HERICK MARQUES DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201405246",
+            "ULISSES CALDEIRA LINO",
+            "ATIVO"
+        ],
+        [
+            "201407698",
+            "AMANDA BARBOSA MORAIS",
+            "ATIVO"
+        ],
+        [
+            "201405241",
+            "JEAN JÔNATAS DE JESUS BORBA",
+            "ATIVO"
+        ],
+        [
+            "201800224",
+            "MURILO LIMA RIBEIRO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902513",
+            "VINÍCIUS PACHECO GOMES",
+            "GRADUADO"
+        ],
+        [
+            "201400374",
+            "TIAGO ALVES BARROS ROSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307942",
+            "WERISSON ERNESTO SILVA PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201204367",
+            "THALES AUGUSTO COSTA BORBOREMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609803",
+            "WELERSON ASSIS DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201800221",
+            "LEONARDO CÉSAR SILVA E SOUSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307935",
+            "LUCIO DE SOUZA TORRES",
+            "ATIVO"
+        ],
+        [
+            "201802722",
+            "GABRIEL VITOR COIMBRA AFONSO",
+            "ATIVO"
+        ],
+        [
+            "201602463",
+            "LORENZO ANTÔNIO LEITE",
+            "ATIVO"
+        ],
+        [
+            "201511934",
+            "IDERLANDO CESAR RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802680",
+            "GABRIEL MOREIRA DO CARMO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208235",
+            "RAILSON RODRIGUES LEITE",
+            "GRADUADO"
+        ],
+        [
+            "200902504",
+            "PHABLO QUEIROZ SOUZA",
+            "GRADUADO"
+        ],
+        [
+            "201802705",
+            "SERGIO CAETANO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201105585",
+            "GUSTAVO DIAS DE OLIVEIRA",
+            "GRADUADO"
+        ],
+        [
+            "201207609",
+            "LUIS DIVINO ALVES JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201602437",
+            "PEDRO VIEIRA DE SOUSA NETO",
+            "ATIVO"
+        ],
+        [
+            "201703677",
+            "HENRIQUE BRUNHAROTTO GARCIA MELLO",
+            "ATIVO"
+        ],
+        [
+            "201108278",
+            "RODRIGO RIBEIRO DE SOUZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902458",
+            "KLEBER MACEDO CABRAL",
+            "GRADUADO"
+        ],
+        [
+            "200902460",
+            "LEONEL GOMES LEITE FILHO",
+            "GRADUADO"
+        ],
+        [
+            "201303893",
+            "RODRIGO MATOS MASCARENHAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201008366",
+            "MURILO ANDRADE SILVA",
+            "ATIVO"
+        ],
+        [
+            "201303890",
+            "MATHEUS RICARDO MENEZES NEVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905497",
+            "LUCAS RENCK MELO",
+            "ATIVO"
+        ],
+        [
+            "201611836",
+            "GABRIEL DIAS VIEIRA",
+            "ATIVO"
+        ],
+        [
+            "201900254",
+            "EDMUR ANDRADE MACEDO JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201303882",
+            "ICARO AGUIAR PEREZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902470",
+            "VINICIUS ARAÚJO SANTOS",
+            "GRADUADO"
+        ],
+        [
+            "201102748",
+            "VICTOR AUGUSTO DE PAULA LOBATO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703692",
+            "OTÁVIO PONTES DE OLIVEIRA SALOMÃO",
+            "ATIVO"
+        ],
+        [
+            "200801714",
+            "MICHEL ROBERTO BARBOSA DONENCIO",
+            "GRADUADO"
+        ],
+        [
+            "201703685",
+            "MÁRCIO GOMES BORGES JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201708988",
+            "MOACIR BATISTA TAVARES",
+            "ATIVO"
+        ],
+        [
+            "201602439",
+            "SAMARA DE LOURDES MIRANDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503157",
+            "FELIPE PIRES SARAIVA",
+            "ATIVO"
+        ],
+        [
+            "201802746",
+            "TALYSON MARTINS DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201602426",
+            "LUCAS DE JESUS BATISTA GONÇALVES",
+            "ATIVO"
+        ],
+        [
+            "201208901",
+            "DOUGLAS RAMIREZ PRIMOLAN",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703670",
+            "EDUARDO SILVESTRE PIRES GONÇALVES",
+            "ATIVO"
+        ],
+        [
+            "201703702",
+            "YTALO BRENO BARBARA SILVA",
+            "ATIVO"
+        ],
+        [
+            "200902499",
+            "LUCAS COSTA SOUSA MILHOMEM",
+            "TRANCADO"
+        ],
+        [
+            "201609814",
+            "JOSIAS JÚNIOR RODRIGUES DA CRUZ",
+            "ATIVO"
+        ],
+        [
+            "201611849",
+            "RODRIGO FRANCISCO PEREIRA DIAS",
+            "ATIVO"
+        ],
+        [
+            "201500356",
+            "RAFAEL CASCALHO SILVA DE MOURA",
+            "ATIVO"
+        ],
+        [
+            "201005493",
+            "PABLO CUNHA CORREIA VIANA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300911",
+            "ANDERSON SOARES DE MORAES",
+            "TRANCADO"
+        ],
+        [
+            "201206877",
+            "ELEISON PEREIRA TAVARES JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902449",
+            "FRANKLIN SILVA DE CASTRO BONFIM",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508660",
+            "VICTOR LINCOLN SILVA FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802739",
+            "MATHEUS ORTEGA DA MOTA",
+            "TRANCADO"
+        ],
+        [
+            "201209510",
+            "FERNANDO CEZAR ALVES CARVALHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905484",
+            "CAIO ROBERTO DUARTE",
+            "ATIVO"
+        ],
+        [
+            "201209506",
+            "ALI JIHAD ZEAITER",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802686",
+            "IGOR ROSA DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703701",
+            "YAN LOBO DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201708983",
+            "EMANUEL BORGES PASSINATO",
+            "ATIVO"
+        ],
+        [
+            "200801720",
+            "RAMON DE PAULA MARQUES",
+            "GRADUADO"
+        ],
+        [
+            "201703666",
+            "ARTHUR GONÇALVES CUNHA",
+            "ATIVO"
+        ],
+        [
+            "201007978",
+            "YURI ROCHA MESQUITA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905481",
+            "ANTONIO EMILIO PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201307674",
+            "GABRIEL SILVA TAVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902497",
+            "LAURA ROSA DA SILVA FRANCO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300921",
+            "VITOR BERNADES AGUIAR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201500354",
+            "DOUGLAS COELHO FERNANDES",
+            "ATIVO"
+        ],
+        [
+            "201108269",
+            "ARTHUR PEREIRA GOMES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007967",
+            "NATANY FRANCO DE ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902488",
+            "GUSTAVO HILÁRIO DE LIRA CHRISTINO",
+            "GRADUADO"
+        ],
+        [
+            "201708987",
+            "IKARO BILHALVA LEANDRO SEIXAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201807139",
+            "MARCELO BEZERRA DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "200902510",
+            "TALES MARINHO GODOIS",
+            "GRADUADO"
+        ],
+        [
+            "201307679",
+            "JOAO VICTOR JORDAO SOUSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904856",
+            "GLAUCO VIEIRA REIS ARAUJO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307413",
+            "RENATO SOARES PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201703683",
+            "KARINE PAES LANDIM ARAÚJO",
+            "ATIVO"
+        ],
+        [
+            "201607094",
+            "VITOR JUNDI MORIYA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703687",
+            "MATHEUS AUGUSTO MONTEIRO DE GODOY",
+            "ATIVO"
+        ],
+        [
+            "201303867",
+            "ALYNE MADUREIRA SILVEIRA",
+            "TRANCADO"
+        ],
+        [
+            "201108027",
+            "VITOR MORAES MARTIN",
+            "GRADUADO"
+        ],
+        [
+            "201802745",
+            "RONAN VIEIRA DO CARMO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201503130",
+            "LUCAS COSTA SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201611841",
+            "JOÃO LUCAS DANTAS LARA MESQUITA",
+            "TRANCADO"
+        ],
+        [
+            "201500357",
+            "THIAGO ALVES DA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201802708",
+            "VICENTE PEREIRA DE CARVALHO NETO",
+            "ATIVO"
+        ],
+        [
+            "201515422",
+            "NABILA DE PAULA E SILVA",
+            "ATIVO"
+        ],
+        [
+            "201602430",
+            "MIGUEL EUSTÁQUIO SILVA",
+            "ATIVO"
+        ],
+        [
+            "201408292",
+            "JOÃO PEDRO DE SOUSA NASCIMENTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002605",
+            "FELIPE SOUZA DE AGUIAR",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902487",
+            "GUSTAVO FERREIRA ROCHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503152",
+            "DIOGO BELARMINO",
+            "GRADUADO"
+        ],
+        [
+            "201901130",
+            "FELIPE SILVA PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201406305",
+            "ELDER VIVOT DIAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208909",
+            "HUDSON MARTINS SILVA BRUNO",
+            "GRADUADO"
+        ],
+        [
+            "201802679",
+            "GABRIEL FREITAS MELO",
+            "ATIVO"
+        ],
+        [
+            "201503124",
+            "JOAO PAULO PACHECO POTENCIANO",
+            "ATIVO"
+        ],
+        [
+            "201618301",
+            "ANDRÉ LUIZ BRANCO BARBOSA",
+            "ATIVO"
+        ],
+        [
+            "201602445",
+            "BRUNO LUIZ DE PAULA PEREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802682",
+            "GUILHERME BRAZ MOREIRA FARIA",
+            "ATIVO"
+        ],
+        [
+            "201406134",
+            "RODRIGO CAVALCANTI GOMES LARANJEIRAS BRANDAO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201408195",
+            "EDUARDO DIAS MELO",
+            "ATIVO"
+        ],
+        [
+            "200902447",
+            "EDUARDO ALVES CARVALHO RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102746",
+            "UBALDINO MOREIRA DAS DORES JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201403454",
+            "DANIEL RODRIGUES DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201005494",
+            "WATHSOM PEREIRA NEIGRAMES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201406784",
+            "JOAO LOBO PINTO NETO",
+            "ATIVO"
+        ],
+        [
+            "201108019",
+            "LUCIANO RIBEIRO DE MELLO FILHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801718",
+            "RAFAEL DAVID QUIRINO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201107629",
+            "MAYKON RENAN PEREIRA DA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "200801713",
+            "MARCELO PEREIRA BARROS",
+            "GRADUADO"
+        ],
+        [
+            "201618306",
+            "LUCAS RODRIGUES PORTO",
+            "ATIVO"
+        ],
+        [
+            "201002617",
+            "LEONARDO ALVES MOREIRA DE MELO",
+            "GRADUADO"
+        ],
+        [
+            "201703730",
+            "TALLES NETTO BARROS",
+            "ATIVO"
+        ],
+        [
+            "201209320",
+            "DOUGLAS ALVES BERNARDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201700257",
+            "LUCAS YOKOY LIMA",
+            "ATIVO"
+        ],
+        [
+            "201905517",
+            "YORICK ISAIAH DUNCK JOSEPH",
+            "ATIVO"
+        ],
+        [
+            "201602472",
+            "MATHEUS HENRIQUE DIAS",
+            "ATIVO"
+        ],
+        [
+            "201108020",
+            "MAGDIEL FREIRE DE SOUZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602470",
+            "MATEUS PEREIRA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201008358",
+            "DANILO SILVA BENTES",
+            "GRADUADO"
+        ],
+        [
+            "201508634",
+            "FELIPE GABRIEL NUNES SENA",
+            "ATIVO"
+        ],
+        [
+            "201300523",
+            "MATHEUS PEREIRA PONTES IBIAPINA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201408294",
+            "MILVO GABRIEL PREVEDELLO DI DOMENICO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201511939",
+            "LÍNEKER VIEIRA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902462",
+            "MARCO ANTÔNIO ASSUNÇÃO FILHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201303897",
+            "WELLINGTON DE FREITAS PANIAGO FILHO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209628",
+            "MATHEUS FERREIRA FEITOSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602432",
+            "PAULO HENRIQUE CARDOSO DE SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201105589",
+            "RICARDO BRUNO OSÉS DE OLIVEIRA",
+            "GRADUADO"
+        ],
+        [
+            "201703733",
+            "VICTOR HUGO COSTA E SILVA",
+            "ATIVO"
+        ],
+        [
+            "201208899",
+            "DARI ROBERTO NEVES GARCIA NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201308035",
+            "JOAO AUGUSTO DE OLIVEIRA RIBEIRO",
+            "ATIVO"
+        ],
+        [
+            "201308034",
+            "JHORDAN GABRIEL OLIVEIRA MAGALHAES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905506",
+            "RAFAEL COSTA RIBEIRO",
+            "ATIVO"
+        ],
+        [
+            "201208898",
+            "CONRADO ROGGER BARBOSA ASSUNCAO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201005488",
+            "CAIO CESAR DOS ANJOS CARNEIRO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801711",
+            "LUCAS GARCIA DE DEUS ASSIS",
+            "GRADUADO"
+        ],
+        [
+            "201905504",
+            "MOZANIEL PEREIRA E SILVA CORRÊA",
+            "ATIVO"
+        ],
+        [
+            "201208925",
+            "RICARDO ALVES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407737",
+            "YAGO SANT ANNA SANTOS COELHO",
+            "ATIVO"
+        ],
+        [
+            "201105868",
+            "WILSON FREIRE DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201107611",
+            "FLAVIA ALVES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703705",
+            "BRUNO RODRIGUES BUENO",
+            "ATIVO"
+        ],
+        [
+            "200902461",
+            "LUIZ HENRIQUE RITTER KOWALSKI",
+            "GRADUADO"
+        ],
+        [
+            "201503144",
+            "VICTOR HUGO NOLETO CAMARGO",
+            "ATIVO"
+        ],
+        [
+            "201002608",
+            "GERALDO ISSAO NAKASHIMA PINTO FIGUEIREDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201508628",
+            "CAIO VINICIUS PINTO ZIRRETTA",
+            "ATIVO"
+        ],
+        [
+            "201511921",
+            "ALTAMIRO SILVA NUNES DE SOUZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307383",
+            "DIEGO SOUZA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201408043",
+            "EDER VINICIUS FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201405240",
+            "JANINE DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201303896",
+            "WARLEY VINICIUS OLIVEIRA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201102730",
+            "LUAN MOTA BARBOSA NOLETO",
+            "GRADUADO"
+        ],
+        [
+            "201905508",
+            "RAONI DOS REIS MIRANDA BARROS",
+            "ATIVO"
+        ],
+        [
+            "201706891",
+            "NEILTON DE CERQUEIRA GOMES",
+            "ATIVO"
+        ],
+        [
+            "201802672",
+            "BRENO HASPARYK ANDRADE",
+            "ATIVO"
+        ],
+        [
+            "201800213",
+            "FILIPE CAMELLO DA MATA",
+            "ATIVO"
+        ],
+        [
+            "201802711",
+            "AMANDA BATISTA GALDINO DINIZ",
+            "TRANCADO"
+        ],
+        [
+            "201209222",
+            "VICTOR MARCELO BERNARDES DE MELO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802737",
+            "MATEUS DA SILVA CARNEIRO",
+            "ATIVO"
+        ],
+        [
+            "201802720",
+            "FELIPE MEIRELES DE ABREU LEÃO",
+            "ATIVO"
+        ],
+        [
+            "201208902",
+            "EDUARDO PETTERSON FONSECA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201700263",
+            "CHARLES FURTADO MOURA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208236",
+            "SAMUEL MENDES FERREIRA GONCALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905489",
+            "GABRIEL FERREIRA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201802689",
+            "KEVIN DE SOUSA ANDRADE",
+            "ATIVO"
+        ],
+        [
+            "201007948",
+            "FELIPE DOURADO HUNGRIA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407708",
+            "GABRIEL GOMES CRUZ DA ROCHA",
+            "ATIVO"
+        ],
+        [
+            "200904787",
+            "CHRISTIAN KALOMBO MUDIANY",
+            "ATIVO"
+        ],
+        [
+            "201609805",
+            "YAN GUIMARÃES VIANA",
+            "TRANCADO"
+        ],
+        [
+            "201306363",
+            "GUILHERME MOREIRA FIRMINO",
+            "ATIVO"
+        ],
+        [
+            "200902489",
+            "HUGO CASTRO GOMES",
+            "GRADUADO"
+        ],
+        [
+            "201002599",
+            "ANDREI DAMIAN DA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201101371",
+            "LUCAS AUGUSTO ARAUJO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201800214",
+            "HALYS ALVES DE ANDRADE NETO",
+            "ATIVO"
+        ],
+        [
+            "201602438",
+            "RAFAEL OLIVEIRA PORFIRIO",
+            "ATIVO"
+        ],
+        [
+            "201408040",
+            "ÁLAN BECHAIRA",
+            "ATIVO"
+        ],
+        [
+            "201407729",
+            "MARCOS VINÍCIUS RODRIGUES DA SILVA",
+            "TRANCADO"
+        ],
+        [
+            "201609792",
+            "ANDRESSA MARTINS CARDOSO",
+            "ATIVO"
+        ],
+        [
+            "201607097",
+            "ARTHUR DE SOUZA FROTA",
+            "ATIVO"
+        ],
+        [
+            "201204354",
+            "JOAO TIAGO CAMARGO DE TOLEDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002619",
+            "MARCOS ARIEL RODRIGUES DE JESUS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802726",
+            "HEINRYCH MATHEUS GOMES ANDRADE",
+            "ATIVO"
+        ],
+        [
+            "201700275",
+            "ROBERTO VIEIRA MACHADO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201802725",
+            "GUILHERME EDUARDO COELHO DE SOUSA",
+            "TRANCADO"
+        ],
+        [
+            "201204343",
+            "DYEGO RAMOS BEZERRA",
+            "TRANCADO"
+        ],
+        [
+            "201703690",
+            "MURILO LOIOLA DANTAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002632",
+            "VICTOR HENRIQUE MOREIRA CAVALCANTE",
+            "GRADUADO"
+        ],
+        [
+            "200902464",
+            "MATHEUS ROSA VIEIRA EXNALTO",
+            "GRADUADO"
+        ],
+        [
+            "201807141",
+            "TULIO IZAAK DE BRITO SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201407702",
+            "CICERO FELIPE PEREIRA ALVES",
+            "ATIVO"
+        ],
+        [
+            "201602444",
+            "AYRTON JUNIO SILVEIRA GOMES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703668",
+            "ARTUR DE ANDRADE NASCENTE CINTRA",
+            "ATIVO"
+        ],
+        [
+            "201002598",
+            "ANDRE MASSARA PASCHOAL",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602406",
+            "BRUNO HENRIQUE LEAL DA CUNHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515412",
+            "EDSON JUNIOR FROTA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201002614",
+            "JOSÉ LUÍS VIEIRA SOBRINHO",
+            "GRADUADO"
+        ],
+        [
+            "201206878",
+            "GABRIEL AUGUSTO DE VITO D'ABBADIA GUIMARÃES",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201503148",
+            "BRUNA DO ESPIRITO SANTO SOUSA",
+            "ATIVO"
+        ],
+        [
+            "201602429",
+            "MEG BATISTA ALVES",
+            "ATIVO"
+        ],
+        [
+            "201905478",
+            "ALAN CAUÊ DOS SANTOS CAVALCANTE",
+            "ATIVO"
+        ],
+        [
+            "201400936",
+            "JORDY APARECIDO FARIA DE ARAÚJO",
+            "GRADUADO"
+        ],
+        [
+            "201307940",
+            "THAIS MENDES PIRES",
+            "ATIVO"
+        ],
+        [
+            "201802674",
+            "DANIEL PEREIRA LEMES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204363",
+            "RAFAEL MENDES CABRAL",
+            "EXCLUÍDO"
+        ],
+        [
+            "201105588",
+            "PAULO HENRIQUE BRITO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204349",
+            "HENRIQUE DOS SANTOS DIAS",
+            "GRADUADO"
+        ],
+        [
+            "201609811",
+            "GABRIEL QUIRINO FERREIRA ROCHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201618302",
+            "CÁSSIO GOMES DE SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201300484",
+            "FERNANDO DE CASTRO MACHADO",
+            "TRANCADO"
+        ],
+        [
+            "201703673",
+            "GHUSTAVO BARBOSA FERNANDES",
+            "ATIVO"
+        ],
+        [
+            "201503143",
+            "VICTOR HUGO DOS SANTOS NERY",
+            "ATIVO"
+        ],
+        [
+            "201602464",
+            "LUCAS AUGUSTO HUNGERBUHLER",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801700",
+            "FLÁVIO PEREIRA DA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201107633",
+            "PEDRO ANTONIO MARQUES TEIXEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201406137",
+            "LUCAS DE ALMEIDA MOREIRA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201407712",
+            "GUILHERME BARCELOS OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902476",
+            "AUGUSTO CÉZAR PEREIRA MONÇÃO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201204365",
+            "RAFAEL SAMPAIO BRANDAO",
+            "ATIVO"
+        ],
+        [
+            "201204347",
+            "FILIPE COELHO SEABRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703713",
+            "ISADORA RODRIGUES MARQUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007964",
+            "MILTON RODRIGUES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209321",
+            "ESTEVÃO NOLETO BUENO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007975",
+            "VICTOR HUGO DOS SANTOS REIS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201408051",
+            "LUCAS SIMÕES PASSOS",
+            "ATIVO"
+        ],
+        [
+            "201700258",
+            "NIKOLAS RICARDO BATISTA COSTA GODOI",
+            "ATIVO"
+        ],
+        [
+            "201802698",
+            "NATHAN NUNES PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201007945",
+            "DANILO PEREIRA DE MOURA",
+            "ATIVO"
+        ],
+        [
+            "201703704",
+            "BATLEY FERNANDES DE ABREU",
+            "ATIVO"
+        ],
+        [
+            "201002618",
+            "LUCAS DE LIMA SANTANA",
+            "GRADUADO"
+        ],
+        [
+            "200902507",
+            "RENATO SILVA RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515455",
+            "MATHEUS CAETANO CAMPOS PEREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802688",
+            "JOAO PEDRO DA GAMA FONSECA DE MATTOS",
+            "ATIVO"
+        ],
+        [
+            "201808774",
+            "MATHEUS FERNANDES DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "200902498",
+            "LEANDRO MARQUES BONIFACIO DE LIMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201303877",
+            "FABIO MARQUEZ DE CARVALHO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201303874",
+            "DANYLO PEREIRA DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515457",
+            "NEILTON CARLOS DE OLIVEIRA GUEDES NETO",
+            "ATIVO"
+        ],
+        [
+            "201905505",
+            "MURILO MESQUITA CAROLINA",
+            "ATIVO"
+        ],
+        [
+            "200801708",
+            "LETÍCIA SOARES MACHADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201206875",
+            "ANDRÉ LUIZ RESENDE DE ALMEIDA ZAMUR",
+            "EXCLUÍDO"
+        ],
+        [
+            "200901109",
+            "YURI FRANCO GUIMARAES DE CASTRO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007974",
+            "THIAGO GOMES LOURENCO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208905",
+            "GIOVANNI SANTIAGO DE ASSIS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609806",
+            "ALEXANDRE TAVARES RONCOLATO",
+            "ATIVO"
+        ],
+        [
+            "201800217",
+            "WALCI SANTOS REZENDE RIOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609793",
+            "BRUNO LED QUINAN GONÇALVES MENDONÇA",
+            "ATIVO"
+        ],
+        [
+            "201204360",
+            "MATHEUS QUEIROZ PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201105584",
+            "GABRIEL BRANDÃO FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201105587",
+            "JOÃO PAULO DOS SANTOS FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "200800917",
+            "ERNESTO RHEINBOLDT DUARTE",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801710",
+            "LUCAS ALCÂNTARA SOUZA",
+            "GRADUADO"
+        ],
+        [
+            "201710986",
+            "MAURO BRUNO CAMPOS FILHO",
+            "ATIVO"
+        ],
+        [
+            "201508649",
+            "MANOEL HENRIQUE NOVAIS NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201910847",
+            "GABRIEL MONTEIRO GUALBERTO",
+            "ATIVO"
+        ],
+        [
+            "200905802",
+            "FERNANDO DE PAULA MARQUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201008357",
+            "DANIEL ELIAS BARBOSA",
+            "GRADUADO"
+        ],
+        [
+            "201511924",
+            "GABRIEL MARTINS FERNANDES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102727",
+            "JHONATHAN SANTOS AGUIAR",
+            "GRADUADO"
+        ],
+        [
+            "200902494",
+            "JONAS MAURICIO GASTAL",
+            "EXCLUÍDO"
+        ],
+        [
+            "201008360",
+            "DIOGO MACHADO DE FREITAS",
+            "GRADUADO"
+        ],
+        [
+            "201905509",
+            "RODRIGO ALVES DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201007949",
+            "GUILHERME MARCORIO DE SANTANA",
+            "ATIVO"
+        ],
+        [
+            "201700265",
+            "EDUARDO AUGUSTO SANTOS GARCIA",
+            "ATIVO"
+        ],
+        [
+            "201307401",
+            "MARIANO JOSÉ FERREIRA NETO",
+            "ATIVO"
+        ],
+        [
+            "201602477",
+            "RENATO ALVES JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201008368",
+            "VITOR BORGES AGUIAR",
+            "GRADUADO"
+        ],
+        [
+            "201408050",
+            "LUCAS FELIPE DE SOUSA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201503181",
+            "TEDY FERRAZ GONCALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201005497",
+            "ANDRE LUIZ CAVALCANTE CIRQUEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905514",
+            "VICTOR EDUARDO ISCAVA MOREIRA",
+            "ATIVO"
+        ],
+        [
+            "201102735",
+            "MADISSON FEITOSA DE PAULA",
+            "ATIVO"
+        ],
+        [
+            "200902471",
+            "VINICIUS DE OLIVEIRA SANTOS",
+            "GRADUADO"
+        ],
+        [
+            "201614855",
+            "DIOGO RIBEIRO DE ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802685",
+            "IGOR MAGALHÃES RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905480",
+            "ANA LUIZA PINHEIRO NOLASCO",
+            "ATIVO"
+        ],
+        [
+            "201208921",
+            "RAFAEL MENDES MESQUITA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307419",
+            "VITOR LUIS TAVARES NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602436",
+            "PEDRO HORTÊNCIO MOREIRA ROSA",
+            "ATIVO"
+        ],
+        [
+            "201007944",
+            "BRUNO DE JESUS SILVA OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201408052",
+            "LUIZ AUGUSTO DE ASSIS PEIXOTO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002624",
+            "PATRÍCIA LOIOLA SANTOS",
+            "GRADUADO"
+        ],
+        [
+            "201407722",
+            "JORGE AUGUSTO LOPES GONCALVES",
+            "ATIVO"
+        ],
+        [
+            "200902454",
+            "ITHALO SILVA BEZERRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703669",
+            "BRUNO TOMÉ",
+            "TRANCADO"
+        ],
+        [
+            "200905732",
+            "VICTOR TERRA FERRÃO",
+            "GRADUADO"
+        ],
+        [
+            "201209623",
+            "JOAO CARLOS DA ROCHA JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609797",
+            "GUSTAVO VINICIUS TAVEIRA LIMA",
+            "ATIVO"
+        ],
+        [
+            "201102724",
+            "HUGO EDUARDO BELCHIOR DE FRANCA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201800219",
+            "DANIEL DA SILVA ALVES",
+            "ATIVO"
+        ],
+        [
+            "201303892",
+            "RAUL DA MATA ESTEVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300914",
+            "RICARDO PEREIRA DE SOUZA FILHO",
+            "TRANCADO"
+        ],
+        [
+            "201708997",
+            "RUAN PABLO DE MIRANDA MINÁ",
+            "EXCLUÍDO"
+        ],
+        [
+            "201005192",
+            "FÁBIO ANTÔNIO DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200905907",
+            "DANILLO DA SILVA GONTIJO",
+            "GRADUADO"
+        ],
+        [
+            "201802695",
+            "MARIANA INACIA XAVIER BORGES",
+            "ATIVO"
+        ],
+        [
+            "200804229",
+            "WILLIAM GOMES FERNANDES JÚNIOR",
+            "GRADUADO"
+        ],
+        [
+            "200902459",
+            "LEONARDO TAVARES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307926",
+            "FELIPE CARRIJO MONTELLA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407710",
+            "GABRIEL PACHECO PERES PEREIRA DE MENEZES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201105590",
+            "WHEIDER MARQUES FERRAZ BARBOSA",
+            "ATIVO"
+        ],
+        [
+            "201602407",
+            "CARLOS ROBERTO VILELA JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "200902444",
+            "CLEYDSON JOSÉ DE FIGUEIREDO JÚNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201700262",
+            "CAIO CÉSAR SILVA OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602451",
+            "DANILLO LINO DE ANDRADE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602452",
+            "DAVID BENETTI",
+            "ATIVO"
+        ],
+        [
+            "201503158",
+            "GABRIEL ROMANINI DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515447",
+            "JORGE FREITAS DE MENEZES",
+            "ATIVO"
+        ],
+        [
+            "201500352",
+            "AMANDA DA CRUZ MIRANDA",
+            "ATIVO"
+        ],
+        [
+            "201802727",
+            "ISABELLA BEATRIZ DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201005491",
+            "LUCAS CAMARGO CARDOSO",
+            "GRADUADO"
+        ],
+        [
+            "201611839",
+            "GUSTHAVO HENRYQUE FERREIRA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201602418",
+            "JANDRESSON CARVALHO SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503153",
+            "EDUARDO HENRIQUE GOMES DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "200902495",
+            "KLEBER LIMA DE OLIVEIRA",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201102747",
+            "VICTOR AFONSO LOPES REBOUÇAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801723",
+            "ROGER OLIVEIRA COELHO ANDRADE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007970",
+            "RAFAEL FERREIRA SOARES DE AGUIAR",
+            "GRADUADO"
+        ],
+        [
+            "201703720",
+            "MAYRENE CRISTINA MAMEDE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002610",
+            "GLEISON SILVA PEREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905515",
+            "VICTOR LEAL MARTINS",
+            "ATIVO"
+        ],
+        [
+            "201703735",
+            "VINÍCIUS MOTA FRAGA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201403453",
+            "BRUNO ATAÍDES FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201403452",
+            "ADAO ALVES DE LIMA BORGES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802678",
+            "GABRIEL FERNANDO FARIA DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201408264",
+            "EMIDIO TONETTI RIBEIRO LUIS",
+            "ATIVO"
+        ],
+        [
+            "201700255",
+            "GABRIEL SOARES TELES",
+            "ATIVO"
+        ],
+        [
+            "201204352",
+            "JESSICA RODRIGUES MAGALHÃES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802730",
+            "JOÃO VICTOR FERREIRA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201002604",
+            "FABIO ALFREDO GALDEZ FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703695",
+            "RODRIGO MARTINS DA CUNHA ALVES",
+            "ATIVO"
+        ],
+        [
+            "201008367",
+            "TÚLIO VAZ ZANONE",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801692",
+            "ANDRÉ LUIZ DIAS RESENDE",
+            "GRADUADO"
+        ],
+        [
+            "201007971",
+            "RENILDO GONZAGA DE SOUSA JUNIOR",
+            "EXCLUÍDO"
+        ],
+        [
+            "201405660",
+            "TIAGO SANTANA DE CASTRO",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201802723",
+            "GILSON DE OLIVEIRA JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201002635",
+            "WERSON PAULO DIAS CANTUARIA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201208100",
+            "JOSEPH KATIAMBA MUTOMBO",
+            "GRADUADO"
+        ],
+        [
+            "201900256",
+            "LUCAS FERREIRA PEÇANHA DE VASCONCELOS",
+            "ATIVO"
+        ],
+        [
+            "201802731",
+            "JORDANA FERREIRA DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201106001",
+            "PEDRO HENRIQUE RODRIGUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802717",
+            "DAVY CAETANO",
+            "ATIVO"
+        ],
+        [
+            "201204357",
+            "MARCOS ANTÔNIO DE JESUS FILHO",
+            "GRADUADO"
+        ],
+        [
+            "201403456",
+            "DJAIR JUNIO MENDES BATISTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201708985",
+            "FERNANDO LOPES AGUIAR",
+            "ATIVO"
+        ],
+        [
+            "201609812",
+            "GERLEY ADRIANO MIRANDA CRUZ",
+            "ATIVO"
+        ],
+        [
+            "201204345",
+            "EDUARDO RODRIGUES DE FARIA FILHO",
+            "ATIVO"
+        ],
+        [
+            "201208930",
+            "TIAGO ALFREDO LUPSCHINSKI LIESENFELD",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102744",
+            "TIAGO CARVALHO LOMBARDI TOSTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902437",
+            "ANDRÉ MENDONÇA ALZAMORA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902466",
+            "RAFAEL SOBRINHO MENDANHA",
+            "GRADUADO"
+        ],
+        [
+            "201002603",
+            "EDUARDO DA SILVA LOURES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201005490",
+            "HEYOAN CHAVES MACHADO LIMA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904948",
+            "JOSE CARLOS VAZ FELIPE",
+            "EXCLUÍDO"
+        ],
+        [
+            "201408054",
+            "RAYAN HENRIQUE ARAUJO DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201905488",
+            "GABRIEL AUGUSTO MOURA LAGNI",
+            "ATIVO"
+        ],
+        [
+            "201703712",
+            "ISABELLA GUIMARÃES AGUIAR DE FARIA",
+            "ATIVO"
+        ],
+        [
+            "201802691",
+            "LUCAS VINICIOS DIAS DE SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201910848",
+            "GABRIEL SIMOES CASTRO",
+            "ATIVO"
+        ],
+        [
+            "201503142",
+            "TULIO BRANDAO SOARES MARTINS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802719",
+            "ERIC LUIZ MORAIS GOMIDES",
+            "ATIVO"
+        ],
+        [
+            "201503136",
+            "PATRICK DANTAS SILVA SA TELES",
+            "ATIVO"
+        ],
+        [
+            "201802676",
+            "ENZO CUNHA DO NASCIMENTO",
+            "ATIVO"
+        ],
+        [
+            "201300916",
+            "ALESSON DAVID GOMES NUNES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201407719",
+            "JOAO PEDRO GUIMARAES BORBA",
+            "ATIVO"
+        ],
+        [
+            "201002612",
+            "HUDSON HENRIQUE DE SOUZA LOPES",
+            "GRADUADO"
+        ],
+        [
+            "201007968",
+            "PAULO HENRIQUE DE MATOS MOREIRA",
+            "ATIVO"
+        ],
+        [
+            "201407726",
+            "LUIS FERNANDO FERREIRA DE OLIVEIRA FREITAS",
+            "ATIVO"
+        ],
+        [
+            "201303898",
+            "YURI OLIVEIRA BORBOREMA",
+            "GRADUADO"
+        ],
+        [
+            "201407731",
+            "MURILLO DE SOUZA SOARES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201005492",
+            "LUCAS CEDRO TEMPONI",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802736",
+            "LUCAS SOUZA DE SANTANA",
+            "ATIVO"
+        ],
+        [
+            "201602423",
+            "KÉTHLYN CAMPOS SILVA",
+            "ATIVO"
+        ],
+        [
+            "201503164",
+            "JOAO VICTOR MAGALHAES",
+            "ATIVO"
+        ],
+        [
+            "201800225",
+            "RAFAEL GUSTAVO MEIRELES E SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200804535",
+            "DANIEL CORREA NÓBREGA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609804",
+            "WILLIAN DA SILVA SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201303876",
+            "DOUGLAS DE OLIVEIRA SOARES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802683",
+            "HUMBERTO VITTORIO ALMEIDA GUADAGNINI",
+            "ATIVO"
+        ],
+        [
+            "201005489",
+            "FILLIPE RIBEIRO SANCHES",
+            "GRADUADO"
+        ],
+        [
+            "201303887",
+            "LUCIANA NAOMI WATANABE OKADA",
+            "ATIVO"
+        ],
+        [
+            "201802713",
+            "ANDRES BERTOLINI LOZOVEY",
+            "EXCLUÍDO"
+        ],
+        [
+            "201300551",
+            "VICTOR PHILIPE MOREIRA DOS SANTOS CAMARGO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201007962",
+            "MATHEUS DE SOUZA ALMEIDA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602405",
+            "ARTHUR DE CAMARGO ALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201900250",
+            "ARTHUR REIS BANDEIRA GOMES",
+            "ATIVO"
+        ],
+        [
+            "201602449",
+            "DANIEL MORAES DOS SANTOS",
+            "ATIVO"
+        ],
+        [
+            "201811631",
+            "RODRIGO DE OLIVEIRA RIBEIRO",
+            "ATIVO"
+        ],
+        [
+            "201508654",
+            "MAYCO ALCÂNTARA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "200902508",
+            "RONALDO GOMES SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503132",
+            "LUCAS HENRIQUE GONCALVES PAMPLONA",
+            "TRANCADO"
+        ],
+        [
+            "201405239",
+            "GUILHERME GALINDO RODRIGUES",
+            "ATIVO"
+        ],
+        [
+            "201602442",
+            "VICTOR TAVARES PONTES",
+            "ATIVO"
+        ],
+        [
+            "201700269",
+            "HABNER JOSE DE ARAUJO COSTA",
+            "ATIVO"
+        ],
+        [
+            "200801702",
+            "GUILHERME PINHEIRO ROCHA REIS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201400371",
+            "DANILO RODRIGUES TORCHIO",
+            "ATIVO"
+        ],
+        [
+            "201400370",
+            "CÉLIO OLIVEIRA GONZAGA JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201802716",
+            "CLEISON SOUSA PEREIRA",
+            "ATIVO"
+        ],
+        [
+            "201511925",
+            "GIULIANNA GONÇALVES DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201607098",
+            "ARTHUR ROCCHETTO ROCHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201200982",
+            "THAIS DIAS BORGES NEVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209325",
+            "JOEL FELIPPE BARBOSA DE OLIVEIRA VELLOSO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201400931",
+            "GABRIEL SANTOS CHIQUINI",
+            "ATIVO"
+        ],
+        [
+            "201303878",
+            "FREDERICO RASSI",
+            "ATIVO"
+        ],
+        [
+            "201407736",
+            "THUANNY LUIZA DANIEL CARDEAL",
+            "ATIVO"
+        ],
+        [
+            "200906194",
+            "ANDREWS MIGUEL DE QUEIROZ SANTANA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902435",
+            "ALEXANDRE MONTEIRO RIBEIRO",
+            "GRADUADO"
+        ],
+        [
+            "201406298",
+            "ANDRÉ RODRIGO MARTINS CAMPOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201406306",
+            "RHUAN WEBSTER DE LOURENCO E SILVA",
+            "ATIVO"
+        ],
+        [
+            "201200101",
+            "ROGERIO SOARES FERREIRA",
+            "ATIVO"
+        ],
+        [
+            "201700277",
+            "THYAGO FERREIRA DE LIMA",
+            "ATIVO"
+        ],
+        [
+            "201103448",
+            "POLIANA XAVIER ALVES",
+            "ATIVO"
+        ],
+        [
+            "201513494",
+            "FELIPE PEREIRA ALMEIDA",
+            "ATIVO"
+        ],
+        [
+            "201609795",
+            "FÁBIO FERNANDES SILVA E OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "200801707",
+            "LEONARDO RIBEIRO TAKANO",
+            "GRADUADO"
+        ],
+        [
+            "201905510",
+            "RODRIGO CALACA CAETANO",
+            "ATIVO"
+        ],
+        [
+            "201107616",
+            "GUSTAVO DO CARMO LAUDARES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201209332",
+            "RODRIGO BORGES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609798",
+            "LETÍCIA DELFINO TEIXEIRA",
+            "ATIVO"
+        ],
+        [
+            "201408042",
+            "ANTÔNIO IGOR RODRIGUES DOURADO",
+            "ATIVO"
+        ],
+        [
+            "201209317",
+            "ADRIEL BRENNER BEZERRA DOS SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201403458",
+            "GABRIEL AUGUSTO CORREIA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201611867",
+            "JOÃO VITOR ALMEIDA DE OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "201602431",
+            "PAULA FABIANA ROSA DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201708993",
+            "JOSÉ TADEU DE AZEVEDO JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201709748",
+            "VENILSON GOMES ROCHA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801715",
+            "MURILO FERREIRA RAMOS CÉSAR LOURENÇO",
+            "GRADUADO"
+        ],
+        [
+            "200902440",
+            "ARLANE DAS NEVES GONCALVES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201002634",
+            "WELLINGTON GARCIA PEREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200902468",
+            "RICARDO MARTINS GOMES",
+            "GRADUADO"
+        ],
+        [
+            "201716634",
+            "CAIO CÉSAR DE MORAES MACHADO",
+            "ATIVO"
+        ],
+        [
+            "201511926",
+            "HUMBERTO PEREIRA TEIXEIRA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201703721",
+            "PAULO HENRIQUE DA CUNHA ARAÚJO",
+            "ATIVO"
+        ],
+        [
+            "200901593",
+            "PAULO REIS DE OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201708982",
+            "BRUNA BATISTA LELIS",
+            "ATIVO"
+        ],
+        [
+            "201407730",
+            "MATEUS ROCHA FERREIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201107615",
+            "GIOVANNI AUGUSTO CHAIB DE TOLEDO",
+            "GRADUADO"
+        ],
+        [
+            "201107604",
+            "ARTHUR MULSER",
+            "GRADUADO"
+        ],
+        [
+            "201808765",
+            "HENRIQUE NEPOMUCENO OLIVEIRA DA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201108016",
+            "JUAN RAMÓN BELCHIOR DE FRANÇA SILVA",
+            "GRADUADO"
+        ],
+        [
+            "201102725",
+            "IGOR CARNEIRO CASTELO BRANCO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201107627",
+            "MARCO ANTÔNIO ARAÚJO DE SOUZA",
+            "GRADUADO"
+        ],
+        [
+            "201703699",
+            "VINICIUS KUNERT OLIVEIRA",
+            "ATIVO"
+        ],
+        [
+            "200804849",
+            "MATHEUS INOCÊNCIO PAIVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "200801697",
+            "ÉRIKA SOARES MACHADO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201307402",
+            "MATEUS PEDROZA CORTES MARQUES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201102715",
+            "CAROLINA SOUZA FLORIANO",
+            "GRADUADO"
+        ],
+        [
+            "201611847",
+            "RHEION LOGAN NOBRE DIAS",
+            "ATIVO"
+        ],
+        [
+            "201503167",
+            "LUCAS PEQUENO DA COSTA REIS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201301630",
+            "BRUNA NEVES RIBEIRO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201306034",
+            "AMANDA COSTA ELIAS",
+            "ATIVO"
+        ],
+        [
+            "201201218",
+            "ANA GABRIELLA FREITAS HOFFMANN",
+            "GRADUADO"
+        ],
+        [
+            "201710966",
+            "ALEX SANDRO BERGAMIM SILVA JÚNIOR",
+            "ATIVO"
+        ],
+        [
+            "201105989",
+            "BRUNO KRATKA BERNARDINO DA COSTA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201616648",
+            "MAIKON FRANCZAK DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515413",
+            "GABRIEL BANDEIRA TAVARES SOBRINHO",
+            "TRANCADO"
+        ],
+        [
+            "201403463",
+            "JOSE CARLOS DE LIMA JUNIOR",
+            "ATIVO"
+        ],
+        [
+            "201303868",
+            "BRUNO RICARDO BUENO MEDEIROS",
+            "ATIVO"
+        ],
+        [
+            "201408041",
+            "ANDRÉ LUIZ CARDOSO DA COSTA",
+            "ATIVO"
+        ],
+        [
+            "201802707",
+            "THALLIS ANDRE FARIA MOREIRA",
+            "ATIVO"
+        ],
+        [
+            "201002631",
+            "THIAGO VILELA DA COSTA GONDIM",
+            "GRADUADO"
+        ],
+        [
+            "201811520",
+            "VINICIUS GABRIEL SANTOS VIDAL",
+            "ATIVO"
+        ],
+        [
+            "201703688",
+            "MATHEUS CASTRO BATISTA DE PADUA",
+            "ATIVO"
+        ],
+        [
+            "201002607",
+            "GASPAR MONTEIRO E SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201511931",
+            "WATSON SALERNO PARENTE SANTANA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602455",
+            "FREDERIK PEDRO OLIVEIRA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201108028",
+            "WILMAR SILVA GUIMARÃES NETO",
+            "TRANCADO"
+        ],
+        [
+            "200902501",
+            "LUCAS MACHADO PERES",
+            "GRADUADO"
+        ],
+        [
+            "201700266",
+            "GABRIEL HENRIQUE FREITAS",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802729",
+            "JHULY ENE PIRES DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201308029",
+            "ALEX SOUTO BALIZA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602409",
+            "DANIEL MARTINEZ ALENCAR FREITAS",
+            "ATIVO"
+        ],
+        [
+            "200902512",
+            "VINÍCIUS DE AVELAR OLIVEIRA",
+            "ATIVO - FORMANDO"
+        ],
+        [
+            "201303891",
+            "MATHIAS CUSTODIO MOREIRA",
+            "ATIVO"
+        ],
+        [
+            "201802749",
+            "VITOR PIRES SILVA E SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201700268",
+            "GUSTAVO SANTOS DA SILVA",
+            "ATIVO"
+        ],
+        [
+            "201905513",
+            "THOR FRANCO BRENNER",
+            "ATIVO"
+        ],
+        [
+            "201900255",
+            "FILIPE AUGUSTO ABREU",
+            "ATIVO"
+        ],
+        [
+            "201503111",
+            "BEATRIZ CARVALHO DE BARROS DO VALE ROCHELLE",
+            "ATIVO"
+        ],
+        [
+            "201515428",
+            "WASHINGTON SILVA QUEIROZ",
+            "TRANCADO"
+        ],
+        [
+            "201102740",
+            "RAPHAEL BRYAN ALVES DE SENA",
+            "ATIVO"
+        ],
+        [
+            "200902457",
+            "KAMON FLORENTINO MESQUITA",
+            "GRADUADO"
+        ],
+        [
+            "201611866",
+            "JOAO VICTOR ANTONUCCI SARDINHA",
+            "ATIVO"
+        ],
+        [
+            "200902491",
+            "IGHOR AUGUSTO BARRETO CANDIDO",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904790",
+            "CAIO CÉSAR AMORIM BORGES",
+            "GRADUADO"
+        ],
+        [
+            "201905498",
+            "LUCAS REZENDE SOARES CESAR",
+            "ATIVO"
+        ],
+        [
+            "201802697",
+            "NATALIE TOLENTINO SERAFIM",
+            "ATIVO"
+        ],
+        [
+            "201900260",
+            "RENATA AYRES COSTA",
+            "ATIVO"
+        ],
+        [
+            "201102712",
+            "BRUNO ANGULO SANCHEZ",
+            "EXCLUÍDO"
+        ],
+        [
+            "201602459",
+            "JONISMAR DA COSTA DE MORAIS",
+            "ATIVO"
+        ],
+        [
+            "200801722",
+            "RICARDO ALVES CARVALHO",
+            "GRADUADO"
+        ],
+        [
+            "201405242",
+            "MILTON GONÇALVES NETO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201609809",
+            "DIOGO MARZANO CHAVES",
+            "ATIVO"
+        ],
+        [
+            "201708996",
+            "PEDRO AUGUSTO ANDRADE DE MELO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201618305",
+            "ÍTALO DANIEL DA SILVA BARBOSA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201306037",
+            "YURI LUAN RODRIGUES DE SOUZA",
+            "ATIVO"
+        ],
+        [
+            "201900261",
+            "SAMUEL FRANÇA DA COSTA PEDROSA",
+            "ATIVO"
+        ],
+        [
+            "200904851",
+            "WARLEY DOURADO VIANNA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201703678",
+            "HIGOR FERREIRA ALVES SANTOS",
+            "EXCLUÍDO"
+        ],
+        [
+            "200904912",
+            "MARCUS VINICIUS FERNANDES DA SILVA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201515418",
+            "IURY CANEDO ANABUKI",
+            "ATIVO"
+        ],
+        [
+            "201005057",
+            "MARLEI VILELA ATAIDES",
+            "EXCLUÍDO"
+        ],
+        [
+            "201802714",
+            "ARTUR SCHNEIDER TRAUTENMULLER",
+            "ATIVO"
+        ],
+        [
+            "200902475",
+            "ANDRÉ MOREIRA QUIRINO",
+            "EXCLUÍDO"
+        ],
+        [
+            "201503168",
+            "LUIS FERNANDO BRUNCA",
+            "EXCLUÍDO"
+        ],
+        [
+            "201901590",
+            "EVANDRO RODRIGUES JACQUES",
+            "ATIVO"
+        ],
+        [
+            "200801698",
+            "FABIO ALFREDO GALDEZ FERREIRA",
+            "EXCLUÍDO"
+        ]
+    ],
+    "queryInfo": {
+        "totalRows": "1012"
+    }
+}

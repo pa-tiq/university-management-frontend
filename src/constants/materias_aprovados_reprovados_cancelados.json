@@ -1,0 +1,425 @@
+{
+    "metadata": [
+        {
+            "colName": "componente curricular.componente curricular",
+            "colType": "String",
+            "colIndex": 0
+        },
+        {
+            "colName": "Aprovados",
+            "colType": "Numeric",
+            "colIndex": 1
+        },
+        {
+            "colName": "Reprovados",
+            "colType": "Numeric",
+            "colIndex": 2
+        },
+        {
+            "colName": "Cancelados",
+            "colType": "Numeric",
+            "colIndex": 3
+        }
+    ],
+    "resultset": [
+        [
+            "ELETROMAGNETISMO",
+            191,
+            289,
+            58
+        ],
+        [
+            "CÁLCULO 2A",
+            374,
+            489,
+            107
+        ],
+        [
+            "CÁLCULO 3A",
+            271,
+            355,
+            90
+        ],
+        [
+            "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            309,
+            392,
+            91
+        ],
+        [
+            "CÁLCULO 1A",
+            496,
+            628,
+            173
+        ],
+        [
+            "FÍSICA 1",
+            308,
+            395,
+            115
+        ],
+        [
+            "ÁLGEBRA LINEAR",
+            471,
+            540,
+            137
+        ],
+        [
+            "ARQUITETURA DE COMPUTADORES 1",
+            245,
+            279,
+            80
+        ],
+        [
+            "MECÂNICA",
+            207,
+            253,
+            92
+        ],
+        [
+            "CIRCUITOS ELÉTRICOS 1",
+            237,
+            224,
+            33
+        ],
+        [
+            "FUNDAMENTOS DE LÓGICA",
+            518,
+            522,
+            148
+        ],
+        [
+            "FÍSICA 3",
+            281,
+            241,
+            45
+        ],
+        [
+            "SISTEMAS DE CONTROLE",
+            162,
+            139,
+            31
+        ],
+        [
+            "ELETRÔNICA 1",
+            163,
+            133,
+            34
+        ],
+        [
+            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            142,
+            110,
+            22
+        ],
+        [
+            "COMPUTAÇÃO GRÁFICA",
+            178,
+            178,
+            96
+        ],
+        [
+            "MÉTODOS MATEMÁTICOS LINEARES",
+            248,
+            175,
+            41
+        ],
+        [
+            "CIRCUITOS LÓGICOS 1",
+            348,
+            194,
+            37
+        ],
+        [
+            "PROBABILIDADE E ESTATÍSTICA",
+            349,
+            230,
+            115
+        ],
+        [
+            "RESISTÊNCIA DOS MATERIAIS I",
+            129,
+            77,
+            33
+        ],
+        [
+            "MATEMÁTICA DISCRETA",
+            527,
+            297,
+            107
+        ],
+        [
+            "ALGORITMOS E PROGRAMAÇÃO 1",
+            634,
+            349,
+            127
+        ],
+        [
+            "ESTRUTURAS DE DADOS I",
+            398,
+            206,
+            68
+        ],
+        [
+            "QUÍMICA GERAL B",
+            553,
+            280,
+            113
+        ],
+        [
+            "LINGUAGENS FORMAIS",
+            275,
+            133,
+            45
+        ],
+        [
+            "METODOLOGIA CIENTÍFICA",
+            526,
+            262,
+            106
+        ],
+        [
+            "ALGORITMOS E PROGRAMAÇÃO 2",
+            539,
+            242,
+            54
+        ],
+        [
+            "LABORATÓRIO DE FÍSICA 1",
+            377,
+            163,
+            80
+        ],
+        [
+            "ANÁLISE DE SISTEMAS LINEARES",
+            231,
+            90,
+            24
+        ],
+        [
+            "SISTEMAS OPERACIONAIS",
+            311,
+            137,
+            78
+        ],
+        [
+            "SISTEMAS DISTRIBUÍDOS 1",
+            216,
+            98,
+            71
+        ],
+        [
+            "COMPILADORES 1",
+            185,
+            70,
+            36
+        ],
+        [
+            "REDES DE COMPUTADORES 1",
+            96,
+            41,
+            35
+        ],
+        [
+            "MATERIAIS ELÉTRICOS",
+            233,
+            82,
+            31
+        ],
+        [
+            "FÍSICA 4",
+            198,
+            77,
+            55
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 2",
+            118,
+            42,
+            21
+        ],
+        [
+            "FENÔMENOS DE TRANSPORTE",
+            206,
+            76,
+            61
+        ],
+        [
+            "CÁLCULO NUMÉRICO",
+            292,
+            97,
+            58
+        ],
+        [
+            "PESQUISA OPERACIONAL 1",
+            196,
+            64,
+            37
+        ],
+        [
+            "ESTRUTURAS DE DADOS II",
+            341,
+            92,
+            27
+        ],
+        [
+            "ENGENHARIA ECONÔMICA",
+            182,
+            50,
+            25
+        ],
+        [
+            "DESENHO TÉCNICO",
+            481,
+            119,
+            84
+        ],
+        [
+            "BANCO DE DADOS 1",
+            310,
+            75,
+            54
+        ],
+        [
+            "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 1",
+            131,
+            26,
+            29
+        ],
+        [
+            "ENGENHARIA DE SOFTWARE 1",
+            207,
+            38,
+            38
+        ],
+        [
+            "INTELIGÊNCIA COMPUTACIONAL",
+            206,
+            35,
+            30
+        ],
+        [
+            "PROJETO ORIENTADO DE ENGENHARIA DE COMPUTAÇÃO",
+            111,
+            24,
+            59
+        ],
+        [
+            "TEORIA DE TELECOMUNICAÇÕES",
+            160,
+            23,
+            9
+        ],
+        [
+            "QUÍMICA GERAL EXPERIMENTAL",
+            680,
+            105,
+            103
+        ],
+        [
+            "INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO",
+            689,
+            100,
+            202
+        ],
+        [
+            "CIÊNCIAS DO AMBIENTE",
+            313,
+            42,
+            70
+        ],
+        [
+            "LABORATÓRIO DE FÍSICA 4",
+            198,
+            24,
+            31
+        ],
+        [
+            "ESTÁGIO SUPERVISIONADO",
+            191,
+            29,
+            92
+        ],
+        [
+            "ENGENHARIA DE SEGURANÇA",
+            28,
+            8,
+            60
+        ],
+        [
+            "LABORATÓRIO DE CIRCUITOS ELÉTRICOS 1",
+            263,
+            25,
+            26
+        ],
+        [
+            "LABORATÓRIO DE CIRCUITOS LÓGICOS",
+            429,
+            33,
+            13
+        ],
+        [
+            "ECONOMIA",
+            262,
+            22,
+            40
+        ],
+        [
+            "ADMINISTRAÇÃO EMPRESARIAL",
+            244,
+            20,
+            31
+        ],
+        [
+            "LABORATÓRIO DE ELETRÔNICA 1",
+            197,
+            16,
+            51
+        ],
+        [
+            "MICROPROCESSADORES E MICROCONTROLADORES",
+            152,
+            10,
+            10
+        ],
+        [
+            "LABORATÓRIO DE MATERIAIS ELÉTRICOS",
+            255,
+            15,
+            22
+        ],
+        [
+            "DIREITO PARA ENGENHARIA",
+            256,
+            13,
+            53
+        ],
+        [
+            "LABORATÓRIO DE CONVERSÃO ELETROMECÂN DE ENERGIA 1",
+            129,
+            5,
+            6
+        ],
+        [
+            "LAB DE MICROPROCESSADORES E MICROCONTROLADORES",
+            158,
+            4,
+            6
+        ],
+        [
+            "LABORATÓRIO DE SISTEMAS DE CONTROLE",
+            165,
+            4,
+            15
+        ],
+        [
+            "AUTOMAÇÃO INDUSTRIAL",
+            81,
+            null,
+            14
+        ]
+    ],
+    "queryInfo": {
+        "totalRows": "66"
+    }
+}
