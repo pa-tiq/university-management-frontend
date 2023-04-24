@@ -33,6 +33,7 @@ export const NETWORK_DATA = {
     {
       id: 'Node 0',
       height: 2,
+      width: 10,
       size: 32,
       color: 'rgb(244, 117, 96)',
     },

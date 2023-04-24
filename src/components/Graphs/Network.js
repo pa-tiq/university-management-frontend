@@ -5,25 +5,25 @@ import { ResponsiveNetwork } from '@nivo/network';
 // no chart will be rendered.
 // website examples showcase many properties,
 // you'll often use just a few of them.
-const Network = ({ data /* see data tab */ }) => (
+const Network = ({ data, annotations }) => (
   <ResponsiveNetwork
     data={data}
     margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
     linkDistance={function (e) {
       return e.distance;
     }}
-    centeringStrength={0.2}
-    repulsivity={20}
+    centeringStrength={1}
+    repulsivity={10}
     nodeSize={function (n) {
       return n.size;
     }}
     activeNodeSize={function (n) {
-      return 1.5 * n.size;
+      return 1.2 * n.size;
     }}
     nodeColor={function (e) {
       return e.color;
     }}
-    nodeBorderWidth={1}
+    nodeBorderWidth={1.2}
     nodeBorderColor={{
       from: 'color',
       modifiers: [['darker', 5]],
@@ -31,8 +31,12 @@ const Network = ({ data /* see data tab */ }) => (
     linkThickness={function (n) {
       return 2 + 2 * n.target.data.height;
     }}
-    linkBlendMode='multiply'
-    motionConfig='wobbly'
+    linkBlendMode='darken'
+    motionConfig='stiff'
+    onClick={(node) => {
+      console.log(node.id);
+    }}
+    annotations={annotations}
   />
 );
 
