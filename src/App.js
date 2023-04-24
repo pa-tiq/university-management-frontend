@@ -15,7 +15,7 @@ const BaseContainer = styled.div`
   margin-bottom: 1rem;
 
   @media screen and (max-width: 1150px) {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 `;
 
