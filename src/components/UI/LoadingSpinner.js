@@ -9,14 +9,25 @@ const spin = keyframes`
     transform: rotate(360deg);
   }`;
 
+const appear = keyframes`
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+`;
+
 const SpinnerDiv = styled.button`
   display: inline-block;
   margin-top: 20%;
   width: 80px;
-  height: 80px;
+  height: 90px;
   border-color: transparent;
   box-shadow: none;
   background: transparent;
+  z-index: 20;
+
   &:after {
     content: ' ';
     display: block;

@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CenteredFixedDiv, DivBackdrop, DivOverlay } from './ModalComponents';
+import {
+  CenteredFixedDivUpDown,
+  DivBackdropUpDown,
+  DivOverlay,
+} from './ModalComponents';
 
 const Modal = (props) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
-        <DivBackdrop hide={props.hide} onClick={props.onHide} />,
+        <DivBackdropUpDown hide={props.hide} onClick={props.onHide} />,
         document.getElementById('backdrop-root')
       )}
       {ReactDOM.createPortal(
-        <CenteredFixedDiv hide={props.hide} onClick={props.onHide}>
+        <CenteredFixedDivUpDown hide={props.hide} onClick={props.onHide}>
           <DivOverlay>{props.children}</DivOverlay>
-        </CenteredFixedDiv>,
+        </CenteredFixedDivUpDown>,
         document.getElementById('overlay-root')
       )}
     </React.Fragment>

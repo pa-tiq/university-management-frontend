@@ -1,15 +1,14 @@
 import React, { Suspense, useState } from 'react';
 import LoadingSpinner from './components/UI/LoadingSpinner';
-import Home from './pages/Home';
 import NavBar from './components/Layout/NavBar';
 import SideBar from './components/Layout/SideBar';
-import styled from 'styled-components';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { wait } from './util/wait';
 import Discover from './pages/Discover';
 import BaseContainer from './components/UI/BaseContainer';
 
 const About = React.lazy(() => wait(500).then(() => import('./pages/About')));
+const Home = React.lazy(() => wait(500).then(() => import('./pages/Home')));
 
 function App() {
   const [sideBarOpen, setSideBarOpen] = useState(false);

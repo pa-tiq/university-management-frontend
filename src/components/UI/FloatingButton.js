@@ -39,14 +39,14 @@ const IconContainer = styled.div`
   padding: 0.171em 0.4em;
   transition-duration: 0.4s;
   cursor: pointer;
-  z-index: 20;
+  z-index: 19;
 
   &:active {
-    animation: ${bump} 300ms ease-out;
+    animation: ${bump} 300ms ease-in-out;
   }
 
   &:hover {
-    opacity: 1;
+    background-color: ${colors.navbar_background};
   }
 
   ${(props) =>

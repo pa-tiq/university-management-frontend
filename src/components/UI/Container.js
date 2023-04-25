@@ -6,10 +6,15 @@ const DivContainer = styled.div`
   width: 100%;
   text-align: center;
   max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : '1100px')};
+  margin-top: ${({ marginTop }) => (marginTop ? marginTop : undefined)};
 `;
 
-const Container = ({ maxWidth, children }) => {
-  return <DivContainer maxWidth={maxWidth}>{children}</DivContainer>;
+const Container = ({ marginTop, maxWidth, children }) => {
+  return (
+    <DivContainer marginTop={marginTop} maxWidth={maxWidth}>
+      {children}
+    </DivContainer>
+  );
 };
 
 export default Container;

@@ -2,27 +2,27 @@ import styled, { keyframes } from 'styled-components';
 import { colors } from '../../constants/colors';
 import { FaTimes } from 'react-icons/fa';
 
-export const DivBackdrop = styled.div`
+const DivBackdrop = styled.div`
   opacity: ${({ hide }) => (hide ? '0' : '100%')};
-  top: ${({ hide, height }) => (!hide ? '0' : height ? `-${height}` : '-100%')};
   position: absolute;
-  width: 100%;
+  width: ${({ width }) => (width ? width : '100%')};
   height: ${({ height }) => (height ? height : '100%')};
   z-index: 20;
   background-color: ${colors.navbar_background};
   transition: all 0.2s ease-in-out;
 `;
 
-export const DivBackdropDownUp = styled.div`
-  opacity: ${({ hide }) => (hide ? '0' : '100%')};
+export const DivBackdropUpDown = styled(DivBackdrop)`
+  top: ${({ hide, height }) => (!hide ? '0' : height ? `-${height}` : '-100%')};
+`;
+
+export const DivBackdropDownUp = styled(DivBackdrop)`
   bottom: ${({ hide, height }) =>
     !hide ? '0' : height ? `-${height}` : '-100%'};
-  position: absolute;
-  width: 100%;
-  height: ${({ height }) => (height ? height : '100%')};
-  z-index: 20;
-  background-color: ${colors.navbar_background};
-  transition: all 0.2s ease-in-out;
+`;
+
+export const DivBackdropLeftRight = styled(DivBackdrop)`
+  left: ${({ hide, width }) => (!hide ? '0' : width ? `-${width}` : '-100%')};
 `;
 
 const appear = keyframes`
@@ -34,32 +34,37 @@ const appear = keyframes`
   }
 `;
 
-export const CenteredFixedDiv = styled.div`
+const CenteredFixedDiv = styled.div`
   //visibility: ${({ hide }) => (hide ? 'hidden' : 'visible')};
   //display: ${({ hide }) => (hide ? 'none' : 'block')};
   opacity: ${({ hide }) => (hide ? '0' : '100%')};
-  top: ${({ hide }) => (hide ? '-100%' : '0')};
   position: fixed;
-  width: 100%;
+  width: ${({ width }) => (width ? width : '100%')};
+  height: ${({ height }) => (height ? height : undefined)};
   z-index: 30;
   transition: all 0.2s ease-in-out;
+  max-width: inherit;
 `;
 
-export const CenteredFixedDivDownUp = styled.div`
-  opacity: ${({ hide }) => (hide ? '0' : '100%')};
+export const CenteredFixedDivUpDown = styled(CenteredFixedDiv)`
+  top: ${({ hide }) => (hide ? '-100%' : '0')};
+`;
+
+export const CenteredFixedDivDownUp = styled(CenteredFixedDiv)`
   bottom: ${({ hide }) => (hide ? '-100%' : '0')};
-  position: fixed;
-  width: 100%;
-  z-index: 30;
-  transition: all 0.2s ease-in-out;
+`;
+
+export const CenteredFixedDivLeftRight = styled(CenteredFixedDiv)`
+  left: ${({ hide }) => (hide ? '-100%' : '0')};
 `;
 
 export const DivOverlay = styled.div`
   position: static;
-  width: 50%;
+  width: ${({ width }) => (width ? width : '50%')};
+  height: ${({ height }) => (height ? height : undefined)};
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : '10%')};
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: ${({ marginLeft }) => (marginLeft ? marginLeft : 'auto')};
+  margin-right: ${({ marginRight }) => (marginRight ? marginRight : 'auto')};
   background-color: ${colors.background};
   color: ${colors.navbar_background};
   border-radius: 14px;
@@ -77,20 +82,23 @@ export const CloseIcon = styled(FaTimes)`
 
 export const IconContainer = styled.div`
   position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
   outline: none;
 `;
 
-export const IconContainerDown = styled.div`
-  position: absolute;
+export const IconContainerUpRight = styled.div`
+  top: 1.2rem;
+  right: 1.5rem;
+`;
+
+export const IconContainerBottomRight = styled(IconContainer)`
   bottom: 11rem;
   right: 1.5rem;
-  background: transparent;
-  font-size: 2rem;
-  cursor: pointer;
-  outline: none;
+`;
+
+export const IconContainerUpLeft = styled(IconContainer)`
+  top: 1.2rem;
+  left: 1.5rem;
 `;

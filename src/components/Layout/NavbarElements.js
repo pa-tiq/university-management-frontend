@@ -4,6 +4,15 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
+const appear = keyframes`
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+`;
+
 export const Nav = styled.nav`
   background: ${colors.navbar_background};
   height: 60px;
@@ -15,6 +24,8 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+
+  animation: ${appear} 300ms ease-out forwards;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -32,7 +43,6 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(NavLink)`
-  color: #fff;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;

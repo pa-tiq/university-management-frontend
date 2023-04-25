@@ -1,5 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const appear = keyframes`
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+`;
 
 const MyContainer = styled.main`
   display: flex;
@@ -7,8 +16,10 @@ const MyContainer = styled.main`
   align-items: center;
   max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : undefined)};
   margin: auto;
-  margin-top: 0.5rem;
+  margin-top: -0.2rem;
   margin-bottom: 1rem;
+  overflow-y: hidden;
+  animation: ${appear} 300ms ease-out;
 
   @media screen and (max-width: 1150px) {
     margin-left: 20px;

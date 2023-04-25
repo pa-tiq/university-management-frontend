@@ -14,7 +14,7 @@ const About = () => {
     setShowModal(false);
   };
   return (
-    <Container maxWidth={'1100px'}>
+    <Container marginTop={'2rem'} maxWidth={'1100px'}>
       <Button primary onClick={showModalHandler}>
         Teste
       </Button>

@@ -5,7 +5,7 @@ import {
   CloseIcon,
   DivBackdropDownUp,
   DivOverlay,
-  IconContainerDown,
+  IconContainerBottomRight,
 } from './ModalComponents';
 
 const BottomModal = ({ hide, onHide, children }) => {
@@ -17,9 +17,9 @@ const BottomModal = ({ hide, onHide, children }) => {
       )}
       {ReactDOM.createPortal(
         <CenteredFixedDivDownUp hide={hide}>
-          <IconContainerDown onClick={onHide}>
+          <IconContainerBottomRight onClick={onHide}>
             <CloseIcon onClick={onHide} />
-          </IconContainerDown>
+          </IconContainerBottomRight>
           <DivOverlay marginTop={'-5rem'}>{children}</DivOverlay>
         </CenteredFixedDivDownUp>,
         document.getElementById('overlay-root')
