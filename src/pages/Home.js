@@ -1,10 +1,11 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Network } from 'vis-network/standalone';
 import 'vis-network/styles/vis-network.min.css';
 import { colors } from '../constants/colors';
 import Edge from '../components/Graphs/Models/Edge';
 import Node from '../components/Graphs/Models/Node';
 import styled from 'styled-components';
+import DetailsSemiModal from '../components/Modals/DetailsSemiModal';
 //https://www.npmjs.com/package/vis-network
 //https://visjs.github.io/vis-network/examples/
 //https://visjs.github.io/vis-network/docs/network/
@@ -20,6 +21,8 @@ const get_nodes_links_annotations = (data) => {
   const nodes = [];
   const edges = [];
   const annotations = [];
+  const node1200H = new Node(999, '1200 H', 0);
+  //nodes.push(node1200H);
 
   const populate = (materia, idx) => {
     const nome = materia[0];
@@ -28,6 +31,9 @@ const get_nodes_links_annotations = (data) => {
     const periodo = materia[3];
     const already_inserted = nodes.find((node) => node.title === nome);
     if (already_inserted) {
+      const already_inserted_idx = nodes.findIndex(
+        (node) => node.title === nome
+      );
       const prereq = nodes.find((node) => node.title === prerequisito);
       const coreq = nodes.find((node) => node.title === corequisito);
       if (prereq) {
@@ -38,8 +44,8 @@ const get_nodes_links_annotations = (data) => {
         );
         if (!prereqlink) {
           const newlink = new Edge(prereq.id, already_inserted.id);
-          console.log(prereq.title, already_inserted.title);
           edges.push(newlink);
+          nodes[already_inserted_idx].addPrerequisite(prerequisito);
         }
       }
       if (coreq) {
@@ -51,30 +57,37 @@ const get_nodes_links_annotations = (data) => {
         if (!coreqlink) {
           const newlink = new Edge(coreq.id, already_inserted.id);
           edges.push(newlink);
+          nodes[already_inserted_idx].addCorequisite(corequisito);
         }
       }
     } else {
-      const newnode = new Node(idx, nome, 'ABC2', periodo);
-      nodes.push(newnode);
+      const newnode = new Node(idx, nome, periodo);
       if (prerequisito === '1200 H') {
         //const annotation = new Annotation(nome, prerequisito);
         //annotations.push(annotation);
+        newnode.addPrerequisite('1200 H');
+        const newlink = new Edge(node1200H.id, idx);
+        edges.push(newlink);
       } else if (corequisito !== 'NAO POSSUI') {
         const coreq = nodes.filter((node) => node.title === corequisito);
         if (coreq.length > 0) {
           const newlink = new Edge(coreq[0].id, idx);
           edges.push(newlink);
+          newnode.addCorequisite(corequisito);
         }
       } else if (prerequisito !== 'NAO POSSUI') {
         const prereq = nodes.filter((node) => node.title === prerequisito);
         if (prereq.length > 0) {
           const newlink = new Edge(prereq[0].id, idx);
           edges.push(newlink);
+          newnode.addPrerequisite(prerequisito);
         }
       }
+      nodes.push(newnode);
     }
   };
 
+  data.resultset.map(populate);
   data.resultset.map(populate);
 
   return { nodes: nodes, edges: edges, annotations };
@@ -84,6 +97,19 @@ const nla = get_nodes_links_annotations(data1);
 
 const Home = () => {
   const networkRef = useRef(null);
+
+  const [showDetails, setShowDetails] = useState(-1);
+  const [selectedNode, setSelectedNode] = useState({});
+
+  const showDetailsHandler = (nodeId) => {
+    setShowDetails(nodeId);
+    setSelectedNode(
+      nla.nodes[nla.nodes.findIndex((node) => node.id === nodeId)]
+    );
+  };
+  const hideDetailsHandler = () => {
+    setShowDetails(-1);
+  };
 
   useEffect(() => {
     if (networkRef.current) {
@@ -103,7 +129,6 @@ const Home = () => {
               }
             },
             label: (values, id, selected, hovering) => {
-              console.log(values);
               if (selected) {
                 values.size = 18;
               }
@@ -135,14 +160,14 @@ const Home = () => {
           improvedLayout: true,
           clusterThreshold: 40,
           hierarchical: {
-            treeSpacing: 40,
+            treeSpacing: 10,
             direction: 'UD',
           },
         },
       }; // Add options for customization if needed
       const network = new Network(networkRef.current, nla, options);
       network.on('select', (params) => {
-        //console.log(params);
+        showDetailsHandler(params.nodes[0]);
       });
     }
   }, []);
@@ -151,8 +176,23 @@ const Home = () => {
     <NetworkContainer>
       <div
         ref={networkRef}
-        style={{ width: '100%', height: '1000px', marginTop: '-20rem' }}
+        style={{ width: '100%', height: '1500px', marginTop: '-10rem' }}
       ></div>
+      {showDetails > -1 && (
+        <DetailsSemiModal hide={showDetails < 0} onHide={hideDetailsHandler}>
+          {`${selectedNode.title} `}
+          {`| Corequisitos: ${
+            selectedNode.corequisites.length > 0
+              ? selectedNode.corequisites
+              : 'Nenhum'
+          }`}
+          {` | Prerequisitos: ${
+            selectedNode.prerequisites.length > 0
+              ? selectedNode.prerequisites
+              : 'Nenhum'
+          }`}
+        </DetailsSemiModal>
+      )}
     </NetworkContainer>
   );
 };

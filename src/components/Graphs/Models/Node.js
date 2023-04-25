@@ -8,7 +8,7 @@ const title_to_label = (title) => {
       element !== 'DE' &&
       element !== 'E' &&
       element !== 'PARA' &&
-      element !== 'COMPUTAÇÃO' &&
+      //element !== 'COMPUTAÇÃO' &&
       element !== 'ENG'
     ) {
       label += element[0];
@@ -21,11 +21,20 @@ const title_to_label = (title) => {
 };
 
 module.exports = class Node {
-  constructor(id, title, label, level) {
+  constructor(id, title, level) {
     this.id = id;
     this.title = title;
     this.label = title_to_label(title);
     this.level = level;
     this.color = { background: colors[`network_node_${level}`] };
+    this.prerequisites = [];
+    this.corequisites = [];
   }
+
+  addPrerequisite = (prerequisite) => {
+    this.prerequisites.push(prerequisite);
+  };
+  addCorequisite = (corequisite) => {
+    this.corequisites.push(corequisite);
+  };
 };

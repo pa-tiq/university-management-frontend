@@ -7,21 +7,7 @@ import styled from 'styled-components';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { wait } from './util/wait';
 import Discover from './pages/Discover';
-
-const BaseContainer = styled.main`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1100px;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-
-  @media screen and (max-width: 1150px) {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-`;
+import BaseContainer from './components/UI/BaseContainer';
 
 const About = React.lazy(() => wait(500).then(() => import('./pages/About')));
 
@@ -38,7 +24,7 @@ function App() {
       <NavBar toggleSideBar={toggle} />
       <Suspense
         fallback={
-          <BaseContainer>
+          <BaseContainer maxWidth={'1100px'}>
             <LoadingSpinner />
           </BaseContainer>
         }
