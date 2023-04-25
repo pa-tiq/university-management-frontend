@@ -12,8 +12,8 @@ const Network = ({ data, annotations }) => (
     linkDistance={function (e) {
       return e.distance;
     }}
-    centeringStrength={1}
-    repulsivity={10}
+    centeringStrength={0.01}
+    repulsivity={3}
     nodeSize={function (n) {
       return n.size;
     }}

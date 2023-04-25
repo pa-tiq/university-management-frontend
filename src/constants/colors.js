@@ -15,6 +15,7 @@ export const colors = {
   navbar_background: '#0b0b0b',
   buttons: 'palevioletred',
   navigation_link_active: 'palevioletred',
+  selected_node: '#e6b30b',
   network_node_1: 'rgb(244, 117, 96)',
   network_node_2: 'rgb(232, 193, 160)',
   network_node_3: 'rgb(97, 205, 187)',
