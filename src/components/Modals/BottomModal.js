@@ -8,7 +8,7 @@ import {
   IconContainerDown,
 } from './ModalComponents';
 
-const DetailsSemiModal = ({ hide, onHide, children }) => {
+const BottomModal = ({ hide, onHide, children }) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
@@ -28,4 +28,4 @@ const DetailsSemiModal = ({ hide, onHide, children }) => {
   );
 };
 
-export default DetailsSemiModal;
+export default BottomModal;

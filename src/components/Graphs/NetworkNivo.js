@@ -5,7 +5,7 @@ import { ResponsiveNetwork } from '@nivo/network';
 // no chart will be rendered.
 // website examples showcase many properties,
 // you'll often use just a few of them.
-const Network = ({ data, annotations }) => (
+const NetworkNivo = ({ data, annotations }) => (
   <ResponsiveNetwork
     data={data}
     margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
@@ -40,4 +40,4 @@ const Network = ({ data, annotations }) => (
   />
 );
 
-export default Network;
+export default NetworkNivo;
