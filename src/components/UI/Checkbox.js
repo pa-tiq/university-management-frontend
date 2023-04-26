@@ -8,9 +8,10 @@ const CheckboxInput = styled.input`
   /* creating a custom design */
   width: 1.6em;
   height: 1.6em;
-  border-radius: 0.15em;
-  margin-right: 0.5em;
-  border: 0.15em solid ${colors.navbar_background};
+  border-radius: 0.19em;
+  margin-right: 0.4em;
+  border: 0.15em solid ${colors.background};
+  color: ${colors.background};
   outline: none;
   cursor: pointer;
 
@@ -22,7 +23,7 @@ const CheckboxInput = styled.input`
   &:checked::before {
     content: '\\2714';
     font-size: 1.5em;
-    color: ${colors.navbar_background};
+    color: ${colors.background};
     position: absolute;
     right: 1px;
     top: -3px;
@@ -34,13 +35,13 @@ const CheckboxInput = styled.input`
   }
 
   &:focus {
-    box-shadow: 0 0 2px ${colors.navbar_background};
+    box-shadow: 0 0 2px ${colors.background};
   }
 `;
 
 const CheckboxWrapper = styled.div`
   //border-bottom: 1px solid #c6c6c6;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
   &:last-child {
     border-bottom: none;
@@ -51,6 +52,8 @@ const CheckboxWrapper = styled.div`
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: ${colors.background};
+    margin-right: 0.4rem;
   }
 
   label + p {
@@ -69,7 +72,11 @@ const Checkbox = ({ value, label, checked, onChange }) => {
           checked={checked}
           onChange={onChange}
         />
-        <span role='checkbox' tabIndex={'0'}>
+        <span
+          role='checkbox'
+          tabIndex={'0'}
+          style={{ color: colors.background }}
+        >
           {value}
         </span>
       </label>

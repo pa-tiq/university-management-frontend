@@ -3,12 +3,19 @@ import NetworkVis from '../components/Graphs/NetworkVis';
 import FloatingButton from '../components/UI/FloatingButton';
 import SideModal from '../components/Modals/SideModal';
 import { DataView } from 'vis-data';
+import FiltersModal from '../components/Modals/FiltersModal';
+import NetworkVisLevelFilter from '../components/Graphs/NetworkVisLevelFilter';
 
 const Home = () => {
   const [showFilters, setShowFilters] = useState(false);
+  const [checkedLevels, setCheckedLevels] = useState([]);
 
   const toggleFiltersHandler = () => {
-    setShowFilters((prevValue) => !prevValue);
+    if (showFilters) {
+      setShowFilters(false);
+    } else {
+      setShowFilters(true);
+    }
   };
   const showFiltersHandler = () => {
     setShowFilters(true);
@@ -22,21 +29,12 @@ const Home = () => {
 
   return (
     <>
-      <FloatingButton onClick={showFiltersHandler} />
+      <FloatingButton onClick={toggleFiltersHandler} />
       <NetworkVis onNodeSelect={nodeSelectHandler} />
       {showFilters && (
-        <SideModal hide={!showFilters} onHide={hideFiltersHandler}>
-          <label>
-            Filter nodes
-            <select id='nodeFilterSelect'>
-              <option value=''>Período</option>
-              <option value='1'>1</option>
-              <option value='2'>2</option>
-              <option value='3'>3</option>
-              <option value='4'>4</option>
-            </select>
-          </label>
-        </SideModal>
+        <FiltersModal hide={!showFilters} onHide={hideFiltersHandler}>
+          <NetworkVisLevelFilter />
+        </FiltersModal>
       )}
     </>
   );

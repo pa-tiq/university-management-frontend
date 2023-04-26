@@ -12,6 +12,7 @@ export const SubjectContext = createContext({
   setNetwork: (network) => {},
   addLevelFilter: (levelfilter) => {},
   removeLevelFilter: (levelfilter) => {},
+  cleanLevelFilters: () => {},
 });
 
 const SubjectContextProvider = ({ children }) => {
@@ -75,6 +76,9 @@ const SubjectContextProvider = ({ children }) => {
       setChange(true);
     }
   };
+  const cleanLevelFilters = () => {
+    setLevelFilters([]);
+  };
 
   return (
     <SubjectContext.Provider
@@ -90,6 +94,7 @@ const SubjectContextProvider = ({ children }) => {
         setNetwork: setNetwork,
         addLevelFilter: addLevelFilter,
         removeLevelFilter: removeLevelFilter,
+        cleanLevelFilters: cleanLevelFilters,
       }}
     >
       {children}

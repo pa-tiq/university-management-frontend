@@ -14,7 +14,6 @@ import styled from 'styled-components';
 import BottomModal from '../Modals/BottomModal';
 import { SubjectContext } from '../../store/subject-context';
 import LoadingSpinner from '../UI/LoadingSpinner';
-import Container from '../UI/Container';
 import Checkbox from '../UI/Checkbox';
 import FiltersContainer from '../UI/FiltersContainer';
 
@@ -247,27 +246,6 @@ const NetworkVis = ({ onNodeSelect }) => {
 
   return (
     <NetworkContainer>
-      <div
-        style={{
-          zIndex: '99',
-          display: 'flex',
-          margin: 'auto',
-          justifyContent: 'center',
-        }}
-      >
-        <div>{'Períodos:'}</div>
-        {levels &&
-          levels.map((level) => {
-            return (
-              <Checkbox
-                key={`semestre${level}`}
-                value={level}
-                checked={checkedLevels[level]}
-                onChange={handleFilterCheck}
-              />
-            );
-          })}
-      </div>
       {/* <FiltersContainer>
         <div>{'Períodos:'}</div>
         {levels &&

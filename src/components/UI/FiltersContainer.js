@@ -8,7 +8,19 @@ const MyDiv = styled.div`
 `;
 
 const FiltersContainer = ({ children }) => {
-  return <MyDiv>{children}</MyDiv>;
+  return (
+    <div
+      style={{
+        zIndex: '99',
+        display: 'flex',
+        margin: 'auto',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      {children}
+    </div>
+  );
 };
 
 export default FiltersContainer;

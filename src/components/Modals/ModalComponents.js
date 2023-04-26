@@ -7,7 +7,7 @@ const DivBackdrop = styled.div`
   position: absolute;
   width: ${({ width }) => (width ? width : '100%')};
   height: ${({ height }) => (height ? height : '100%')};
-  z-index: 20;
+  z-index: ${({ zIndex }) => (zIndex ? zIndex : 20)};
   background-color: ${colors.navbar_background};
   transition: all 0.2s ease-in-out;
 `;
@@ -41,9 +41,12 @@ const CenteredFixedDiv = styled.div`
   position: fixed;
   width: ${({ width }) => (width ? width : '100%')};
   height: ${({ height }) => (height ? height : 'inherit')};
-  z-index: 30;
+  z-index: ${({ zIndex }) => (zIndex ? zIndex : 30)};
   transition: all 0.2s ease-in-out;
   max-width: inherit;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 `;
 
 export const CenteredFixedDivUpDown = styled(CenteredFixedDiv)`
@@ -70,7 +73,7 @@ export const DivOverlay = styled.div`
   background-color: ${colors.background};
   color: ${colors.navbar_background};
   border-radius: 14px;
-  z-index: 40;
+  z-index: ${({ zIndex }) => (zIndex ? zIndex : 40)};
   padding-top: 0.3rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
@@ -78,6 +81,13 @@ export const DivOverlay = styled.div`
   text-align: center;
   transition: all 0.2s ease-in-out;
 
+  animation: ${appear} 300ms ease-out forwards;
+`;
+
+export const DivOverlayFilters = styled.div`
+  display: flex;
+  color: ${colors.background};
+  transition: all 0.2s ease-in-out;
   animation: ${appear} 300ms ease-out forwards;
 `;
 
