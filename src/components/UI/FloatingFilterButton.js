@@ -1,6 +1,7 @@
 import styled, { css, keyframes } from 'styled-components';
 import { AiOutlineFilter } from 'react-icons/ai';
 import { colors } from '../../constants/colors';
+import { FaTimes } from 'react-icons/fa';
 
 const bump = keyframes`
   0% {
@@ -28,7 +29,7 @@ const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-  top: 6rem;
+  top: 5.4rem;
   left: -2rem;
   font-size: 2rem;
   cursor: pointer;
@@ -72,12 +73,24 @@ const FilterIcon = styled(AiOutlineFilter)`
   cursor: pointer;
 `;
 
-const FloatingButton = ({ onClick }) => {
+const CloseIcon = styled(FaTimes)`
+  color: ${colors.background};
+  margin-top: 0.6rem;
+  margin-left: 0.1rem;
+  margin-right: -1.5rem;
+  cursor: pointer;
+`;
+
+const FloatingFilterButton = ({ onClick, checked }) => {
   return (
     <IconContainer onClick={onClick}>
-      <FilterIcon onClick={onClick} />
+      {checked ? (
+        <CloseIcon onClick={onClick} />
+      ) : (
+        <FilterIcon onClick={onClick} />
+      )}
     </IconContainer>
   );
 };
 
-export default FloatingButton;
+export default FloatingFilterButton;

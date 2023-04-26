@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import NetworkVis from '../components/Graphs/NetworkVis';
-import FloatingButton from '../components/UI/FloatingButton';
+import FloatingFilterButton from '../components/UI/FloatingFilterButton';
 import FiltersModal from '../components/Modals/FiltersModal';
 import NetworkVisLevelFilter from '../components/Graphs/NetworkVisLevelFilter';
 
 const Home = () => {
   const [showFilters, setShowFilters] = useState(false);
-  const [checkedLevels, setCheckedLevels] = useState([]);
 
   const toggleFiltersHandler = () => {
     if (showFilters) {
@@ -27,7 +26,10 @@ const Home = () => {
 
   return (
     <>
-      <FloatingButton onClick={toggleFiltersHandler} />
+      <FloatingFilterButton
+        onClick={toggleFiltersHandler}
+        checked={showFilters}
+      />
       <NetworkVis onNodeSelect={nodeSelectHandler} />
       {showFilters && (
         <FiltersModal hide={!showFilters} onHide={hideFiltersHandler}>
