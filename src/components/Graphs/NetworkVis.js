@@ -15,6 +15,8 @@ import BottomModal from '../Modals/BottomModal';
 import { SubjectContext } from '../../store/subject-context';
 import LoadingSpinner from '../UI/LoadingSpinner';
 import Container from '../UI/Container';
+import Checkbox from '../UI/Checkbox';
+import FiltersContainer from '../UI/FiltersContainer';
 
 //https://www.npmjs.com/package/vis-network
 //https://visjs.github.io/vis-network/examples/
@@ -245,24 +247,41 @@ const NetworkVis = ({ onNodeSelect }) => {
 
   return (
     <NetworkContainer>
-      <Container style={{ zIndex: '99' }}>
-        <div>{'Períodos'}</div>
+      <div
+        style={{
+          zIndex: '99',
+          display: 'flex',
+          margin: 'auto',
+          justifyContent: 'center',
+        }}
+      >
+        <div>{'Períodos:'}</div>
         {levels &&
           levels.map((level) => {
             return (
-              <label key={`periodo${level}`}>
-                {level}
-                <input
-                  id={level}
-                  type='checkbox'
-                  checked={checkedLevels[level]}
-                  onChange={handleFilterCheck}
-                />
-                {'       '}
-              </label>
+              <Checkbox
+                key={`semestre${level}`}
+                value={level}
+                checked={checkedLevels[level]}
+                onChange={handleFilterCheck}
+              />
             );
           })}
-      </Container>
+      </div>
+      {/* <FiltersContainer>
+        <div>{'Períodos:'}</div>
+        {levels &&
+          levels.map((level) => {
+            return (
+              <Checkbox
+                key={`semestre${level}`}
+                value={level}
+                checked={checkedLevels[level]}
+                onChange={handleFilterCheck}
+              />
+            );
+          })}
+      </FiltersContainer> */}
       <div
         ref={networkRef}
         style={{
