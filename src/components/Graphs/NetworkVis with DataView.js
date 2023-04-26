@@ -14,8 +14,6 @@ import styled from 'styled-components';
 import BottomModal from '../Modals/BottomModal';
 import { SubjectContext } from '../../store/subject-context';
 import LoadingSpinner from '../UI/LoadingSpinner';
-import { network } from 'vis-network';
-import { NETWORK_DATA } from '../../constants/DUMMY_DATA';
 //https://www.npmjs.com/package/vis-network
 //https://visjs.github.io/vis-network/examples/
 //https://visjs.github.io/vis-network/docs/network/
@@ -123,6 +121,10 @@ const NetworkVis = ({ onNodeSelect }) => {
     setFilterPeriod(event.target.value);
   };
 
+  useEffect(() => {
+    if (nodesDataView) nodesDataView.refresh();
+  }, [filterPeriod]);
+
   const showDetailsHandler = (nodeId) => {
     const selected =
       ctx.nodes[ctx.nodes.findIndex((node) => node.id === nodeId)];
@@ -135,17 +137,7 @@ const NetworkVis = ({ onNodeSelect }) => {
   };
 
   const ctx = useContext(SubjectContext);
-  const { nodes, edges, isLoading, network } = ctx;
-
-  useEffect(() => {
-    if (network) {
-      if (filterPeriod > -1) {
-        network.setData(NETWORK_DATA);
-      } else {
-        network.setData({ nodes: nodes, edges: edges });
-      }
-    }
-  }, [filterPeriod]);
+  const { nodes, edges, nodesDataView, edgesDataView } = ctx;
 
   useLayoutEffect(() => {
     const nla = get_nodes_links_annotations(data1);
@@ -153,14 +145,27 @@ const NetworkVis = ({ onNodeSelect }) => {
     ctx.setNodesArr(nla.nodes);
   }, []);
 
+  const nodesFilter = (node) => {
+    if (filterPeriod === -1) {
+      return true;
+    }
+    switch (filterPeriod) {
+      case 1:
+        return node.level === 1;
+      case 2:
+        return node.level === 2;
+      case 3:
+        return node.level === 3;
+      case 4:
+        return node.level === 4;
+      default:
+        return true;
+    }
+  };
+
   useEffect(() => {
-    if (networkRef.current && !isLoading) {
+    if (networkRef.current && nodesDataView) {
       const options = {
-        configure: {
-          enabled: true,
-          filter: 'nodes,edges',
-          showButton: true,
-        },
         nodes: {
           shape: 'box',
           borderWidth: 0,
@@ -223,19 +228,39 @@ const NetworkVis = ({ onNodeSelect }) => {
         },
       }; // Add options for customization if needed
 
+      console.log(nodesDataView);
+      console.log(edgesDataView);
+
       const network = new Network(
         networkRef.current,
-        { nodes: nodes, edges: edges },
+        { nodes: nodesDataView, edges: edgesDataView },
         options
       );
 
       network.on('select', (params) => {
         showDetailsHandler(params.nodes[0]);
       });
-
-      ctx.setNetwork(network);
     }
-  }, [nodes, edges, isLoading]);
+  }, [nodesDataView]);
+
+  useEffect(() => {
+    if (nodes.length > 0) {
+      const nodeDictArr = Node.returnDictArr(nodes);
+      console.log(nodeDictArr);
+      const nodesView = new DataView(nodeDictArr, { filter: nodesFilter });
+      console.log(nodesView);
+      ctx.setNodesDataView(nodesView);
+    }
+  }, [nodes]);
+
+  useEffect(() => {
+    if (edges.length > 0) {
+      console.log(edges);
+      const edgesView = new DataView(edges);
+      console.log(edgesView);
+      ctx.setEdgesDataView(edgesView);
+    }
+  }, [edges]);
 
   if (ctx.isLoading) {
     return <LoadingSpinner />;
@@ -243,9 +268,9 @@ const NetworkVis = ({ onNodeSelect }) => {
 
   return (
     <NetworkContainer>
-      <label style={{ zIndex: '99' }}>
+      <label>
         Filter nodes
-        <select id='nodeFilterSelect' onChange={handlePeriodFilterChange}>
+        <select id='nodeFilterSelect' onSelect={handlePeriodFilterChange}>
           <option value='-1'>Período</option>
           <option value='1'>1</option>
           <option value='2'>2</option>

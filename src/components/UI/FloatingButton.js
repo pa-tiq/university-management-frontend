@@ -29,14 +29,14 @@ const IconContainer = styled.div`
   align-items: center;
   align-content: center;
   top: 6rem;
-  left: 3rem;
-  font-size: 2.5rem;
+  left: -2rem;
+  font-size: 2rem;
   cursor: pointer;
   outline: none;
   border-radius: 90px;
   opacity: 1;
   background-color: ${colors.buttons};
-  padding: 0.171em 0.4em;
+  padding: 0.14em 1.4em;
   transition-duration: 0.4s;
   cursor: pointer;
   z-index: 19;
@@ -67,6 +67,8 @@ const IconContainer = styled.div`
 const FilterIcon = styled(AiOutlineFilter)`
   color: ${colors.background};
   margin-top: 0.6rem;
+  margin-left: 0.1rem;
+  margin-right: -1.5rem;
   cursor: pointer;
 `;
 

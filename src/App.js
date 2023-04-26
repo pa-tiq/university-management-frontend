@@ -28,14 +28,19 @@ function App() {
           </BaseContainer>
         }
       >
-        <BaseContainer>
-          <Routes>
-            <Route path='/*' element={<Navigate to='/home' />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/discover' element={<Discover />} />
-          </Routes>
-        </BaseContainer>
+        <Routes>
+          <Route path='/*' element={<Navigate to='/home' />} />
+          <Route path='/home' element={<Home />} />
+          <Route
+            path='/about'
+            element={
+              <BaseContainer>
+                <About />
+              </BaseContainer>
+            }
+          />
+          <Route path='/discover' element={<Discover />} />
+        </Routes>
       </Suspense>
     </>
   );

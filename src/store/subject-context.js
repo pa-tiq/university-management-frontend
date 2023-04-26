@@ -1,25 +1,33 @@
-import { createContext, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 
 export const SubjectContext = createContext({
   nodes: [],
   edges: [],
+  network: null,
   isLoading: false,
-  addNode: () => {},
-  addEdge: () => {},
+  setNodesArr: (newnodes) => {},
+  setEdgesArr: (newedges) => {},
+  setNetwork: (network) => {},
 });
 
 const SubjectContextProvider = ({ children }) => {
   const [nodes, setNodes] = useState([]);
   const [edges, setEdges] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [network, setNetwork] = useState(null);
 
-  const addNode = (node) => {
-    let subs = nodes.concat(node);
-    setNodes(subs);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    if (nodes.length > 0 && edges.length > 0) {
+      setIsLoading(false);
+    }
+  }, [nodes, edges]);
+
+  const setNodesArr = (newnodes) => {
+    setNodes(newnodes);
   };
-  const addEdge = (edge) => {
-    let rels = edges.concat(edge);
-    setEdges(rels);
+  const setEdgesArr = (newedges) => {
+    setEdges(newedges);
   };
 
   return (
@@ -28,8 +36,10 @@ const SubjectContextProvider = ({ children }) => {
         nodes: nodes,
         edges: edges,
         isLoading: isLoading,
-        addNode: addNode,
-        addEdge: addEdge,
+        network: network,
+        setNodesArr: setNodesArr,
+        setEdgesArr: setEdgesArr,
+        setNetwork: setNetwork,
       }}
     >
       {children}

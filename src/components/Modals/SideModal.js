@@ -20,7 +20,7 @@ const SideModal = ({ hide, onHide, children }) => {
           <IconContainerUpLeft onClick={onHide}>
             <CloseIcon onClick={onHide} />
           </IconContainerUpLeft>
-          <DivOverlay width={'60%'} height={'80%'} marginTop={'8rem'}>
+          <DivOverlay width={'75%'} height={'70%'} marginTop={'8rem'}>
             {children}
           </DivOverlay>
         </CenteredFixedDivLeftRight>,

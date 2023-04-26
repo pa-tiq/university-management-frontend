@@ -26,6 +26,7 @@ module.exports = class Node {
     this.title = title;
     this.label = title_to_label(title);
     this.level = level;
+    this.group = level;
     this.color = { background: colors[`network_node_${level}`] };
     this.prerequisites = [];
     this.corequisites = [];

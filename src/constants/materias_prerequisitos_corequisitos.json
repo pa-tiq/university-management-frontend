@@ -197,15 +197,15 @@
             5
         ],
         [
-            "LABORATÓRIO DE MATERIAIS ELÉTRICOS",
-            "MATERIAIS ELÉTRICOS",
-            "NAO POSSUI",
-            5
-        ],
-        [
             "MATERIAIS ELÉTRICOS",
             "NAO POSSUI",
             "FÍSICA 3",
+            5
+        ],
+        [
+            "LABORATÓRIO DE MATERIAIS ELÉTRICOS",
+            "MATERIAIS ELÉTRICOS",
+            "NAO POSSUI",
             5
         ],
         [
@@ -221,6 +221,12 @@
             6
         ],
         [
+            "LABORATÓRIO DE CONVERSÃO ELETROMECÂN DE ENERGIA 1",
+            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            "NAO POSSUI",
+            6
+        ],
+        [
             "ELETRÔNICA 1",
             "NAO POSSUI",
             "CIRCUITOS ELÉTRICOS 1",
@@ -232,12 +238,7 @@
             "MATERIAIS ELÉTRICOS",
             6
         ],
-        [
-            "LABORATÓRIO DE CONVERSÃO ELETROMECÂN DE ENERGIA 1",
-            "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
-            "NAO POSSUI",
-            6
-        ],
+
         [
             "LABORATÓRIO DE ELETRÔNICA 1",
             "ELETRÔNICA 1",
@@ -305,12 +306,6 @@
             7
         ],
         [
-            "LAB DE MICROPROCESSADORES E MICROCONTROLADORES",
-            "MICROPROCESSADORES E MICROCONTROLADORES",
-            "NAO POSSUI",
-            8
-        ],
-        [
             "METODOLOGIA CIENTÍFICA",
             "NAO POSSUI",
             "NAO POSSUI",
@@ -326,6 +321,12 @@
             "MICROPROCESSADORES E MICROCONTROLADORES",
             "NAO POSSUI",
             "ELETRÔNICA 1",
+            8
+        ],
+        [
+            "LAB DE MICROPROCESSADORES E MICROCONTROLADORES",
+            "MICROPROCESSADORES E MICROCONTROLADORES",
+            "NAO POSSUI",
             8
         ],
         [

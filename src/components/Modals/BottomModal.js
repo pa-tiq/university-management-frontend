@@ -12,15 +12,15 @@ const BottomModal = ({ hide, onHide, children }) => {
   return (
     <React.Fragment>
       {ReactDOM.createPortal(
-        <DivBackdropDownUp height={'10%'} hide={hide} />,
+        <DivBackdropDownUp height={'11%'} hide={hide} />,
         document.getElementById('backdrop-root')
       )}
       {ReactDOM.createPortal(
-        <CenteredFixedDivDownUp hide={hide}>
+        <CenteredFixedDivDownUp height={'11%'} hide={hide}>
           <IconContainerBottomRight onClick={onHide}>
             <CloseIcon onClick={onHide} />
           </IconContainerBottomRight>
-          <DivOverlay marginTop={'-5rem'}>{children}</DivOverlay>
+          <DivOverlay>{children}</DivOverlay>
         </CenteredFixedDivDownUp>,
         document.getElementById('overlay-root')
       )}

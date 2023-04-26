@@ -40,7 +40,7 @@ const CenteredFixedDiv = styled.div`
   opacity: ${({ hide }) => (hide ? '0' : '100%')};
   position: fixed;
   width: ${({ width }) => (width ? width : '100%')};
-  height: ${({ height }) => (height ? height : undefined)};
+  height: ${({ height }) => (height ? height : 'inherit')};
   z-index: 30;
   transition: all 0.2s ease-in-out;
   max-width: inherit;
@@ -60,16 +60,21 @@ export const CenteredFixedDivLeftRight = styled(CenteredFixedDiv)`
 
 export const DivOverlay = styled.div`
   position: static;
-  width: ${({ width }) => (width ? width : '50%')};
-  height: ${({ height }) => (height ? height : undefined)};
-  margin-top: ${({ marginTop }) => (marginTop ? marginTop : '10%')};
+  width: ${({ width }) => (width ? width : '75%')};
+  height: ${({ height }) => (height ? height : '39%')};
+  margin-top: ${({ marginTop }) => (marginTop ? marginTop : '10px')};
+  margin-bottom: ${({ marginBottom }) =>
+    marginBottom ? marginBottom : 'auto'};
   margin-left: ${({ marginLeft }) => (marginLeft ? marginLeft : 'auto')};
   margin-right: ${({ marginRight }) => (marginRight ? marginRight : 'auto')};
   background-color: ${colors.background};
   color: ${colors.navbar_background};
   border-radius: 14px;
   z-index: 40;
-  padding: 1rem;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-bottom: 2rem;
   text-align: center;
   transition: all 0.2s ease-in-out;
 
