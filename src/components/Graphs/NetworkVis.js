@@ -5,7 +5,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import { DataView, Network } from 'vis-network/standalone';
+import { Network } from 'vis-network/standalone';
 import 'vis-network/styles/vis-network.min.css';
 import { colors } from '../../constants/colors';
 import Edge from './ModelsVis/Edge';
@@ -14,8 +14,8 @@ import styled from 'styled-components';
 import BottomModal from '../Modals/BottomModal';
 import { SubjectContext } from '../../store/subject-context';
 import LoadingSpinner from '../UI/LoadingSpinner';
-import { network } from 'vis-network';
-import { NETWORK_DATA } from '../../constants/DUMMY_DATA';
+import Container from '../UI/Container';
+
 //https://www.npmjs.com/package/vis-network
 //https://visjs.github.io/vis-network/examples/
 //https://visjs.github.io/vis-network/docs/network/
@@ -110,22 +110,18 @@ const get_nodes_links_annotations = (data) => {
   return { nodes: nodes, edges: edges };
 };
 
-//const nla = get_nodes_links_annotations(data1);
-
 const NetworkVis = ({ onNodeSelect }) => {
   const networkRef = useRef(null);
 
+  const ctx = useContext(SubjectContext);
+  const { nodes, edges, isLoading, levelFilters, levels } = ctx;
+
   const [showDetails, setShowDetails] = useState(-1);
   const [selectedNode, setSelectedNode] = useState({});
-  const [filterPeriod, setFilterPeriod] = useState(-1);
-
-  const handlePeriodFilterChange = (event) => {
-    setFilterPeriod(event.target.value);
-  };
+  const [checkedLevels, setCheckedLevels] = useState([]);
 
   const showDetailsHandler = (nodeId) => {
-    const selected =
-      ctx.nodes[ctx.nodes.findIndex((node) => node.id === nodeId)];
+    const selected = nodes[nodes.findIndex((node) => node.id === nodeId)];
     setShowDetails(nodeId);
     setSelectedNode(selected);
     onNodeSelect(selected);
@@ -134,18 +130,24 @@ const NetworkVis = ({ onNodeSelect }) => {
     setShowDetails(-1);
   };
 
-  const ctx = useContext(SubjectContext);
-  const { nodes, edges, isLoading, network } = ctx;
+  const handleFilterCheck = (e) => {
+    const level = parseInt(e.target.id);
+    let checked = checkedLevels;
+    if (levelFilters.includes(level)) {
+      ctx.removeLevelFilter(level);
+      checked[level] = false;
+    } else {
+      ctx.addLevelFilter(level);
+      checked[level] = true;
+    }
+    setCheckedLevels(checked);
+  };
 
   useEffect(() => {
-    if (network) {
-      if (filterPeriod > -1) {
-        network.setData(NETWORK_DATA);
-      } else {
-        network.setData({ nodes: nodes, edges: edges });
-      }
+    if (levels) {
+      setCheckedLevels(new Array(levels.length + 1).fill(false));
     }
-  }, [filterPeriod]);
+  }, [levels]);
 
   useLayoutEffect(() => {
     const nla = get_nodes_links_annotations(data1);
@@ -237,22 +239,30 @@ const NetworkVis = ({ onNodeSelect }) => {
     }
   }, [nodes, edges, isLoading]);
 
-  if (ctx.isLoading) {
+  if (isLoading) {
     return <LoadingSpinner />;
   }
 
   return (
     <NetworkContainer>
-      <label style={{ zIndex: '99' }}>
-        Filter nodes
-        <select id='nodeFilterSelect' onChange={handlePeriodFilterChange}>
-          <option value='-1'>Período</option>
-          <option value='1'>1</option>
-          <option value='2'>2</option>
-          <option value='3'>3</option>
-          <option value='4'>4</option>
-        </select>
-      </label>
+      <Container style={{ zIndex: '99' }}>
+        <div>{'Períodos'}</div>
+        {levels &&
+          levels.map((level) => {
+            return (
+              <label key={`periodo${level}`}>
+                {level}
+                <input
+                  id={level}
+                  type='checkbox'
+                  checked={checkedLevels[level]}
+                  onChange={handleFilterCheck}
+                />
+                {'       '}
+              </label>
+            );
+          })}
+      </Container>
       <div
         ref={networkRef}
         style={{
