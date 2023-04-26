@@ -9,6 +9,18 @@ const DivContainer = styled.div`
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : undefined)};
 `;
 
+export const TableContainer = styled.div`
+  overflow: auto;
+  padding: 1rem;
+  height: 1100px;
+
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+`;
+
 const Container = ({ marginTop, maxWidth, children }) => {
   return (
     <DivContainer marginTop={marginTop} maxWidth={maxWidth}>

@@ -2,11 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   CenteredFixedDivUpDown,
-  CloseIcon,
   DivBackdropUpDown,
-  DivOverlay,
   DivOverlayFilters,
-  IconContainerUpRight,
 } from './ModalComponents';
 
 const FiltersModal = ({ hide, onHide, children }) => {

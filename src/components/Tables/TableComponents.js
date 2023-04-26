@@ -4,6 +4,7 @@ export const StyledTable = styled.table`
   caption-side: top;
   border: none;
   border-collapse: collapse;
+  width: 100%;
   /* border-collapse: separate; */
   /* border-spacing: 5px 10px; */
 
@@ -21,14 +22,11 @@ export const StyledTable = styled.table`
   td,
   th {
     border: none;
+    padding: 8px 16px;
   }
-  /* td,
-  th {
-    border: 1px solid;
-  } */
 
-  td {
-    padding: 5px 10px;
+  th {
+    background: #c2c2c2;
   }
 
   tbody tr {
@@ -39,9 +37,7 @@ export const StyledTable = styled.table`
       background-color: lightpink;
     }
   }
-  thead > tr {
-    background-color: #c2c2c2;
-  }
+
   caption {
     font-size: 0.9em;
     padding: 5px;

@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import NetworkVis from '../components/Graphs/NetworkVis';
 import FloatingButton from '../components/UI/FloatingButton';
-import SideModal from '../components/Modals/SideModal';
-import { DataView } from 'vis-data';
 import FiltersModal from '../components/Modals/FiltersModal';
 import NetworkVisLevelFilter from '../components/Graphs/NetworkVisLevelFilter';
 

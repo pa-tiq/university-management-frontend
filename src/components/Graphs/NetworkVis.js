@@ -115,11 +115,10 @@ const NetworkVis = ({ onNodeSelect }) => {
   const networkRef = useRef(null);
 
   const ctx = useContext(SubjectContext);
-  const { nodes, edges, isLoading, levelFilters, levels } = ctx;
+  const { nodes, edges, isLoading } = ctx;
 
   const [showDetails, setShowDetails] = useState(-1);
   const [selectedNode, setSelectedNode] = useState({});
-  const [checkedLevels, setCheckedLevels] = useState([]);
 
   const showDetailsHandler = (nodeId) => {
     const selected = nodes[nodes.findIndex((node) => node.id === nodeId)];
@@ -131,25 +130,6 @@ const NetworkVis = ({ onNodeSelect }) => {
     setShowDetails(-1);
   };
 
-  const handleFilterCheck = (e) => {
-    const level = parseInt(e.target.id);
-    let checked = checkedLevels;
-    if (levelFilters.includes(level)) {
-      ctx.removeLevelFilter(level);
-      checked[level] = false;
-    } else {
-      ctx.addLevelFilter(level);
-      checked[level] = true;
-    }
-    setCheckedLevels(checked);
-  };
-
-  useEffect(() => {
-    if (levels) {
-      setCheckedLevels(new Array(levels.length + 1).fill(false));
-    }
-  }, [levels]);
-
   useLayoutEffect(() => {
     const nla = get_nodes_links_annotations(data1);
     ctx.setEdgesArr(nla.edges);
@@ -160,9 +140,9 @@ const NetworkVis = ({ onNodeSelect }) => {
     if (networkRef.current && !isLoading) {
       const options = {
         configure: {
-          enabled: true,
+          enabled: false,
           filter: 'nodes,edges',
-          showButton: true,
+          showButton: false,
         },
         nodes: {
           shape: 'box',
@@ -246,20 +226,6 @@ const NetworkVis = ({ onNodeSelect }) => {
 
   return (
     <NetworkContainer>
-      {/* <FiltersContainer>
-        <div>{'Períodos:'}</div>
-        {levels &&
-          levels.map((level) => {
-            return (
-              <Checkbox
-                key={`semestre${level}`}
-                value={level}
-                checked={checkedLevels[level]}
-                onChange={handleFilterCheck}
-              />
-            );
-          })}
-      </FiltersContainer> */}
       <div
         ref={networkRef}
         style={{

@@ -39,7 +39,14 @@ function App() {
               </BaseContainer>
             }
           />
-          <Route path='/discover' element={<Discover />} />
+          <Route
+            path='/discover'
+            element={
+              <BaseContainer>
+                <Discover />
+              </BaseContainer>
+            }
+          />
         </Routes>
       </Suspense>
     </>
