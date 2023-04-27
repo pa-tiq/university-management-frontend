@@ -6,9 +6,9 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { wait } from './util/wait';
 import Discover from './pages/Discover';
 import BaseContainer from './components/UI/BaseContainer';
+import Home from './pages/Home';
 
 const About = React.lazy(() => wait(500).then(() => import('./pages/About')));
-const Home = React.lazy(() => wait(500).then(() => import('./pages/Home')));
 
 function App() {
   const [sideBarOpen, setSideBarOpen] = useState(false);
@@ -23,7 +23,7 @@ function App() {
       <NavBar toggleSideBar={toggle} />
       <Suspense
         fallback={
-          <BaseContainer maxWidth={'1100px'}>
+          <BaseContainer>
             <LoadingSpinner />
           </BaseContainer>
         }

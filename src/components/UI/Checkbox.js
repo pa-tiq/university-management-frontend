@@ -22,10 +22,10 @@ const CheckboxInput = styled.input`
 
   &:checked::before {
     content: '\\2714';
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: ${colors.background};
     position: absolute;
-    right: 1px;
+    right: 2px;
     top: -3px;
   }
 
@@ -74,6 +74,7 @@ const Checkbox = ({ value, label, checked, onChange }) => {
         />
         <span
           role='checkbox'
+          aria-checked={checked}
           tabIndex={'0'}
           style={{ color: colors.background }}
         >

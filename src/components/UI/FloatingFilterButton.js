@@ -29,7 +29,7 @@ const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-  top: 5.4rem;
+  top: 4.4rem;
   left: -2rem;
   font-size: 2rem;
   cursor: pointer;

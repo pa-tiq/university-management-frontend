@@ -11,11 +11,9 @@ import { colors } from '../../constants/colors';
 import Edge from './ModelsVis/Edge';
 import Node from './ModelsVis/Node';
 import styled from 'styled-components';
-import BottomModal from '../Modals/BottomModal';
 import { SubjectContext } from '../../store/subject-context';
 import LoadingSpinner from '../UI/LoadingSpinner';
-import Checkbox from '../UI/Checkbox';
-import FiltersContainer from '../UI/FiltersContainer';
+import DetailsModal from '../Modals/DetailsModal';
 
 //https://www.npmjs.com/package/vis-network
 //https://visjs.github.io/vis-network/examples/
@@ -111,23 +109,18 @@ const get_nodes_links_annotations = (data) => {
   return { nodes: nodes, edges: edges };
 };
 
-const NetworkVis = ({ onNodeSelect }) => {
+const NetworkVis = () => {
   const networkRef = useRef(null);
 
   const ctx = useContext(SubjectContext);
   const { nodes, edges, isLoading } = ctx;
 
-  const [showDetails, setShowDetails] = useState(-1);
-  const [selectedNode, setSelectedNode] = useState({});
+  const [selectedNode, setSelectedNode] = useState(null);
 
   const showDetailsHandler = (nodeId) => {
     const selected = nodes[nodes.findIndex((node) => node.id === nodeId)];
-    setShowDetails(nodeId);
     setSelectedNode(selected);
-    onNodeSelect(selected);
-  };
-  const hideDetailsHandler = () => {
-    setShowDetails(-1);
+    //onNodeSelect(selected);
   };
 
   useLayoutEffect(() => {
@@ -141,8 +134,9 @@ const NetworkVis = ({ onNodeSelect }) => {
       const options = {
         configure: {
           enabled: false,
-          filter: 'nodes,edges',
-          showButton: false,
+          filter:
+            'nodes,edges,layout,interaction,manipulation,physics,selection,renderer',
+          showButton: true,
         },
         nodes: {
           shape: 'box',
@@ -189,16 +183,21 @@ const NetworkVis = ({ onNodeSelect }) => {
             highlight: colors.selected_edge,
           },
         },
-        physics: true,
+        physics: {
+          enabled: true,
+          hierarchicalRepulsion: {
+            centralGravity: 0.4,
+          },
+        },
         layout: {
           randomSeed: undefined,
           improvedLayout: true,
           clusterThreshold: 150,
           hierarchical: {
-            treeSpacing: 5,
+            treeSpacing: 1,
             direction: 'UD',
             levelSeparation: 100,
-            nodeSpacing: 50,
+            nodeSpacing: 1,
           },
         },
         interaction: {
@@ -235,21 +234,7 @@ const NetworkVis = ({ onNodeSelect }) => {
           position: 'absolute',
         }}
       ></div>
-      {showDetails > -1 && (
-        <BottomModal hide={showDetails < 0} onHide={hideDetailsHandler}>
-          <div>{`${selectedNode.title} `}</div>
-          <div>{`Corequisitos: ${
-            selectedNode.corequisites.length > 0
-              ? selectedNode.corequisites
-              : 'Nenhum'
-          }`}</div>
-          <div>{`Prerequisitos: ${
-            selectedNode.prerequisites.length > 0
-              ? selectedNode.prerequisites
-              : 'Nenhum'
-          }`}</div>
-        </BottomModal>
-      )}
+      <DetailsModal hide={!selectedNode} selectedNode={selectedNode} />
     </NetworkContainer>
   );
 };

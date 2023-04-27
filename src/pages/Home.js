@@ -4,7 +4,7 @@ import FloatingFilterButton from '../components/UI/FloatingFilterButton';
 import FiltersModal from '../components/Modals/FiltersModal';
 import NetworkVisLevelFilter from '../components/Graphs/NetworkVisLevelFilter';
 
-const Home = () => {
+const Home = ({ nodeSelectHandler }) => {
   const [showFilters, setShowFilters] = useState(false);
 
   const toggleFiltersHandler = () => {
@@ -14,14 +14,11 @@ const Home = () => {
       setShowFilters(true);
     }
   };
-  const showFiltersHandler = () => {
-    setShowFilters(true);
-  };
+  // const showFiltersHandler = () => {
+  //   setShowFilters(true);
+  // };
   const hideFiltersHandler = () => {
     setShowFilters(false);
-  };
-  const nodeSelectHandler = (node) => {
-    //setShowFilters(false);
   };
 
   return (
@@ -31,11 +28,9 @@ const Home = () => {
         checked={showFilters}
       />
       <NetworkVis onNodeSelect={nodeSelectHandler} />
-      {showFilters && (
-        <FiltersModal hide={!showFilters} onHide={hideFiltersHandler}>
-          <NetworkVisLevelFilter />
-        </FiltersModal>
-      )}
+      <FiltersModal hide={!showFilters} onHide={hideFiltersHandler}>
+        <NetworkVisLevelFilter />
+      </FiltersModal>
     </>
   );
 };

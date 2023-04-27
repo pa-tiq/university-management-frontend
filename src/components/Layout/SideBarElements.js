@@ -3,7 +3,6 @@ import { FaTimes } from 'react-icons/fa';
 import { colors } from '../../constants/colors';
 import { Link as LinkRouter } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
-import { Link as LinkScroll } from 'react-scroll';
 
 export const SidebarContainer = styled.div`
   position: fixed;

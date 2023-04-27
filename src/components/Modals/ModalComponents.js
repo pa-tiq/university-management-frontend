@@ -42,7 +42,7 @@ const CenteredFixedDiv = styled.div`
   width: ${({ width }) => (width ? width : '100%')};
   height: ${({ height }) => (height ? height : 'inherit')};
   z-index: ${({ zIndex }) => (zIndex ? zIndex : 30)};
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   max-width: inherit;
   align-items: center;
   justify-content: center;
@@ -65,7 +65,7 @@ export const DivOverlay = styled.div`
   position: static;
   width: ${({ width }) => (width ? width : '75%')};
   height: ${({ height }) => (height ? height : '39%')};
-  margin-top: ${({ marginTop }) => (marginTop ? marginTop : '10px')};
+  margin-top: ${({ marginTop }) => (marginTop ? marginTop : '0.23rem')};
   margin-bottom: ${({ marginBottom }) =>
     marginBottom ? marginBottom : 'auto'};
   margin-left: ${({ marginLeft }) => (marginLeft ? marginLeft : 'auto')};
@@ -77,17 +77,18 @@ export const DivOverlay = styled.div`
   padding-top: 0.3rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.4rem;
   text-align: center;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
-  animation: ${appear} 300ms ease-out forwards;
+  //animation: ${appear} 300ms ease-out forwards;
 `;
 
 export const DivOverlayFilters = styled.div`
   display: flex;
   color: ${colors.background};
-  transition: all 0.2s ease-in-out;
+  margin-top: 9rem;
+  transition: all 0.1s ease-in-out;
   animation: ${appear} 300ms ease-out forwards;
 `;
 

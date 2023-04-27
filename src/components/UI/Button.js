@@ -30,7 +30,7 @@ const MyButton = styled.button`
   border: 2px solid ${colors.buttons};
   opacity: 1;
   color: ${colors.buttons};
-  margin: 0.5em 1em;
+  margin: 0.5em 0.3em;
   padding: 0.25em 1em;
   transition-duration: 0.4s;
   cursor: pointer;
