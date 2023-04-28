@@ -1,4 +1,4 @@
-module.exports = class Annotation {
+export default class Annotation {
   constructor(id, note) {
     this.type = 'circle';
     this.match = { id: id };
@@ -8,4 +8,4 @@ module.exports = class Annotation {
     this.offset = 0;
     this.noteTextOffset = 4;
   }
-};
+}

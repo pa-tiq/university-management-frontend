@@ -20,7 +20,7 @@ const title_to_label = (title) => {
   return label;
 };
 
-module.exports = class Node {
+export default class Node {
   constructor(id, title, level) {
     this.id = id;
     this.title = title;
@@ -38,4 +38,4 @@ module.exports = class Node {
   addCorequisite = (corequisite) => {
     this.corequisites.push(corequisite);
   };
-};
+}
